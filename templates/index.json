@@ -400,7 +400,7 @@
         "all_view": false,
         "products_count": "4",
         "column_item": "25%",
-        "carousel_view": false,
+        "carousel_view": true,
         "products_view": "4",
         "off_carousel_nav": true,
         "off_carousel_pag": true,
