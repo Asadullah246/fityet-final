@@ -79,6 +79,41 @@ padding-top: 30px !important;
     background: #F63C25;
 }
 
+.caption-text .block-title {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.caption-item p{
+    font-weight: 600 !important;
+    font-family: 'Barlow', sans-serif !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    line-height: normal !important;
+}
+.caption-item h5{
+    font-weight: 500 !important;
+    font-family: 'Barlow', sans-serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.block-text{
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+.section .banner-caption {
+    padding-top: 12px !important;
+    padding-bottom: 20px !important;
+}
+.btn-secondary{
+    color: white;
+    border-radius: 45px;
+    border: 1px solid white;
+    font-weight: 600;
+}
+
+
+
 /* card  */
 
 /* .section_featured-products-tabs h5.section_heading{
