@@ -390,7 +390,7 @@
       ],
       "settings": {
         "section_title": "NEW PRODUCTS",
-        "section_subtitle": "",
+        "section_subtitle": "subheading",
         "container_width": "container",
         "bg_section": "#ffffff",
         "inset_section": "0px 0px 0px 0px",
