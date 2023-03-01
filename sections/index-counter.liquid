@@ -6,7 +6,7 @@
 			.section-style-{{ section.id }} .item-{{ block.id }} .counter-title {
 				color: {{ block.settings.color_title }};
 			}
-			
+
 			.section-style-{{ section.id }} .item-{{ block.id }} .counter-value {
 				color: {{ block.settings.color_number }};
 			}
@@ -21,18 +21,19 @@
 
 
 <div class="section-style-{{ section.id }}">
+	
 	{%- include 'section-style' -%}
 	<div class="{{ section.settings.container_width }}">
 		<div class="col-12 text-center mb-4">
 			{% if section.settings.section_title != blank %}
 				<div class="section_heading mb-0">{{ section.settings.section_title }}</div>
 			{% endif %}
-			
+
 			{% if section.settings.desc != blank %}
 				<p class="text text-default my-0">{{ section.settings.desc }}</p>
 			{% endif %}
 		</div>
-		
+
 		<div class="row counter-wrapper justify-content-between {% if section.settings.reset_indent %}gx-0{% endif %}">
 			{% for block in section.blocks %}
 				<div class="col-md-{{ block.settings.width }} col-12">
@@ -79,7 +80,7 @@
 			"id": "desc",
 			"label": "HTML / Description"
 		},
-	
+
 		{
 			"type":      "select",
 			"id":        "container_width",
@@ -180,7 +181,7 @@
 						}
 					]
 				},
-	
+
 				{
 					"type": "color",
 					"id": "bg_block",
@@ -194,7 +195,7 @@
 					"default": "0px 0px 0px 0px",
 					"info": "inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
 				},
-	
+
 				{
 					"type":      "select",
 					"id":        "text_pos",
@@ -215,7 +216,7 @@
 					],
 					"default":   "start"
 				},
-	
+
 				{
 					"type":      "select",
 					"id":        "text_align",
@@ -236,21 +237,21 @@
 					],
 					"default":   "left"
 				},
-	
+
 				{
 					"type": "text",
 					"id": "title",
 					"label": "Title",
 					"default": "Counter"
 				},
-	
+
 				{
 					"type": "color",
 					"id": "color_title",
 					"label": "Color title",
 					"default": "#797b7e"
 				},
-	
+
 				{
 					"type": "text",
 					"id": "number",

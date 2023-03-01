@@ -1,4 +1,9 @@
-
+body{
+    font-family: 'Barlow', sans-serif !important;
+}
+main{
+    font-family: 'Barlow', sans-serif !important;
+}
 
 /* header banner  */
 
@@ -152,12 +157,46 @@ padding-top: 30px !important;
 
 /* card  */
 
-/* .section_featured-products-tabs h5.section_heading{
+.productHeadingSection{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 20px auto;
+    gap: 10px;
+}
+.borderProductHeading{
+    width: 60px;
+    border-bottom: 1px solid rgba(180, 181, 197, 0.986);
+}
+.headingSub{
+    color: #F63C25;
+    text-transform: uppercase;
     font-weight: 900;
-    font-size: 2em;
-    font-family: ;
+    letter-spacing: 5px;
+    font-size: 1.2em;
+}
+.section_heading{
+    font-weight: 900 !important;
+    font-family: 'Barlow', sans-serif !important;
+    font-size: 2.5em !important;
+}
 
-} */
+.product-price-container{
+    text-align: left !important;
+
+}
+.product-price-container span {
+    color: #F63C25 !important;
+    font-size: 1.2em !important;
+}
+.spr-badge{
+    text-align: left !important;
+}
+.product_name {
+    font-weight: 500 !important;
+    text-align: left;
+    font-family: 'Barlow', sans-serif !important;
+}
 
 
 /* footer  */

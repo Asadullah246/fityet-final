@@ -42,14 +42,15 @@
 
 <!-- Product page  -->
 <section>
+
 	<div class="product-scope type_{{ p_item.product_view_type }}{% if p_item.use_border_thumbs %} use_border_thumbs{% endif %}">
 	<div class="single-product-wrapper">
 			<div class="row{% if p_item.product_view_type == 'carousel-vertical' %} align-items-start{% endif %}">
-				
+
                 {% include 'product-image-gallery' %}
 				<div class="single_product__info col-12 {{ product_info_class }}">
 					{% include 'product-descr' %}
-					
+
 					{% case p_item.product_description_type %}
 					{% when 'dropdown-content'  %}
 						{% include 'product-tabs-vertical' %}
@@ -57,13 +58,13 @@
 				</div>
 			</div>
 	</div>
-	
+
 	{% case p_item.product_description_type %}
 	{% when 'tab-content'  %}
 		{% include 'product-tabs-horizontal' %}
 	{% endcase %}
-	
-	
+
+
 	{% if settings.show_related_products %}
 		{% include 'product-related' %}
 	{% endif %}
@@ -79,12 +80,12 @@
 	"class": "section section_single-product section_product section_template__product",
 	"max_blocks": 30,
 	"settings": [
-	 
+
 		{
 			"type": "header",
 			"content": "Product"
 		},
-  
+
 		{
 			"type": "select",
 			"id": "product_view_type",
@@ -112,7 +113,7 @@
 				}
 			]
 		},
-  
+
   		{
   			"type": "select",
   			"id": "pr_image_ratio",
@@ -134,7 +135,7 @@
   			"label": "image ratio",
   			"info": "Adapt not recommended to use Type Carousel Vertical"
   		},
-	  
+
 	  {
 		"type": "select",
 		"id": "product_image_alignment",
@@ -155,7 +156,7 @@
 		  }
 		]
 	  },
-  
+
   		{
   			"type": "color",
   			"id": "bg_prodthumb",
@@ -163,14 +164,14 @@
   			"default": "#f2f3f5",
   			"info": "Used if image is png with transparent background"
   		},
-  
+
   		{
   			"type": "checkbox",
   			"id": "use_border_thumbs",
   			"label": "Enable border thumbs",
   			"default": true
   		},
-  		
+
 		{
 			"type": "select",
 			"id": "product_description_type",
@@ -186,14 +187,14 @@
 				}
 			]
 		},
-  
+
  		{
  			"type": "checkbox",
  			"id": "use_pg_sticky",
  			"label": "Enable sticky gallery",
  			"default": true
  		},
-	  
+
   		{
   			"type": "header",
   			"content": "- Horizontal and Vertical Gallery settings"
@@ -265,17 +266,17 @@
   			"step": 1,
   			"default": 0
   		},
-  
+
   		{
   			"type": "header",
   			"content": "Tile layout"
   		},
-  
+
   		{
   			"type": "paragraph",
   			"content": "You may disable twice variant for see all image in two columns"
   		},
-  
+
   		{
   			"type": "paragraph",
   			"content": "Common settings for tile"
@@ -290,12 +291,12 @@
   			"step": 1,
   			"default": 10
   		},
-  
+
   		{
   			"type": "paragraph",
   			"content": " > Tile Color Filter Gallery settings"
   		},
-  
+
   		{
   			"type": "checkbox",
   			"id": "use_filter_color_thumbs",
@@ -303,7 +304,7 @@
   			"info": "Necessarily need to set attribute color in image alt. Disable button 'show more' images",
   			"default": false
   		},
-  
+
   		{
   			"type": "range",
   			"id": "pg_tileitemview",
@@ -314,12 +315,12 @@
   			"step": 2,
   			"default": 4
   		},
-  
+
   		{
   			"type": "paragraph",
   			"content": " > Or Tile More Button Gallery settings"
   		},
-  
+
  		{
  			"type": "checkbox",
  			"id": "use_more_image",
@@ -343,8 +344,8 @@
   				}
   			]
   		},
-  
-  
+
+
   		{
   			"type": "header",
   			"content": "Product zoom gallery"
@@ -368,7 +369,7 @@
   			"type": "header",
   			"content": "Product modal gallery"
   		},
-  
+
   		{
   			"type": "checkbox",
   			"id": "pg_modalgallery",
@@ -391,7 +392,7 @@
   			],
   			"default": "square"
   		},
-  
+
   		{
   			"type": "range",
   			"id": "pg_modalthumb_w",
@@ -414,7 +415,7 @@
   		}
 	],
 	"blocks": [
-	 
+
 		{
 			"type": "all_tab",
 			"name": "Content for all product",
@@ -434,7 +435,7 @@
 			]
 		},
 
-	 
+
 		{
 			"type": "reviews",
 			"name": "Product reviews",
@@ -450,7 +451,7 @@
 			]
 		},
 
-		
+
 		{
 			"type": "product_tab",
 			"name": "Content for product",
@@ -476,7 +477,7 @@
 			]
 		},
 
-		
+
 		{
 			"type": "collection_tab",
 			"name": "Content for collection",

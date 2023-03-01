@@ -10,9 +10,9 @@
 		  <h2 class="section_heading">{{ section.settings.title }}</h2>
 		</div>
 	  {% endif %}
-	  
+
 	  <div class="{% if settings.use_lg and section.settings.use_bg_grad2 and section.settings.container_width != 'full-with' %} mx-0 bg_grad2{% endif %} row{% if section.settings.reset_indent %} gx-0{% endif %}">
-		
+
 		{% for block in section.blocks %}
 				{%- assign block_width = 'col-12' -%}
 				{% case block.settings.width %}
@@ -29,7 +29,7 @@
 					{% when '100%' %}
 				{% comment %}{%- assign block_width = 'col-12' -%}{% endcomment %}
 				{% endcase %}
-				
+
 				<div class="{{ block_width }} col_item {% cycle 'step2': 'item_2_1', '' %}">
 					<div class="custom_content__item item_block_{{ block.type }} item-{{ block.id }} {% if block.settings.custom_class.size > 0 %}{{ block.settings.custom_class }}{% endif %}">
 						{% case block.type %}
@@ -47,7 +47,7 @@
 										 alt="{{ block.settings.image.alt | escape }}">
 								</div>
 							</div>
-						
+
 						{% else %}
 							<div class="image-item-container">
 								<div class="img_placeholder__wrap" style="padding-top: 52.6%;">
@@ -55,18 +55,19 @@
 								</div>
 							</div>
 						{% endif %}
-						
+
 						{% when 'text' %}
 						<div class="item_text text-{{ block.settings.align_text }} h-100 d-flex flex-column justify-content-md-{{ block.settings.v_cpos }} align-items-md-{{ block.settings.h_cpos }}">
+
 							<style>
 								.section-style-{{ section.id }} .item-{{ block.id }} .item_text:not(.inverted) .block-title {
 									color: {{ block.settings.color_title }};
 								}
-								
+
 								.section-style-{{ section.id }} .item-{{ block.id }} .item_text:not(.inverted) .block-text{
 									color: {{ block.settings.color_text }};
 								}
-								
+
 								.section-style-{{ section.id }} .item-{{ block.id }} .item_text:not(.inverted) .block-subtitle{
 									color: {{ block.settings.color_subtitle }};
 								}
@@ -88,7 +89,7 @@
 							{%- assign text_class = 'text-default' -%}
 							{%- assign offset_class = 'mt-1' -%}
 							{% endcase %}
-							
+
 							{% if block.settings.item_subtitle.size > 0 %}
 								<div class="{{ subtitle_class }} {{ offset_class }} block-subtitle"><div class="caption-item">{{ block.settings.item_subtitle }}</div></div>
 							{% endif %}
@@ -102,7 +103,7 @@
 								<a class="btn {{ offset_class }} {{ block.settings.btn_style }} {{ block.settings.btn_size }}" href="{{ block.settings.slide_link }}">{{ block.settings.url_text }}</a>
 							{% endif %}
 						</div>
-						
+
 						{% when 'video' %}
 						<div class="item_video">
 							{% if block.settings.video_url.size > 0 %}
@@ -111,25 +112,26 @@
 								</div>
 							{% endif %}
 						</div>
-						
+
 						{% when 'product' %}
 						{%- assign product = all_products[block.settings.product] -%}
-						
+
 						<div class="product_listing__main">
 							{% if product.id.size > 0 %}
 								{% include 'product-listing-item', img_size: img_size, img_alignment: 'center' %}
 							{% else %}
 								<div class="product_item">
 									<div class="product_wrapper">
+
 										{% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
 										<div class="product_img">
 											<div class="img_placeholder__wrap">
 												{{ 'product-' | append: current | placeholder_svg_tag: 'img_placeholder' }}
 											</div>
 										</div>
-										
+
 										<p class="product_name">Product name</p>
-										
+
 										<p class="product_price">
 											$99.00
 										</p>
@@ -137,21 +139,22 @@
 								</div>
 							{% endif %}
 						</div>
-						
+
 						{% when 'collection' %}
 						{%- assign collection = collections[block.settings.collection] -%}
-						
+
 						<div class="collection_listing__main">
+						
 							<div class="collection_item">
 								{% if collection.id.size > 0 %}
 									<a href="{{ collection.url }}">
 										<div class="layer_1 collection_img">
 											{% if collection.image %}
 												<img src="{{ collection | img_url: img_size, crop: 'center' }}" alt="{{ collection.title }}">
-												
+
 												{% elsif collection.products.first %}
 												<img src="{{ collection.products.first | img_url: img_size, crop: 'center' }}" alt="{{ collection.title }}">
-											
+
 											{% else %}
 												<div class="img_placeholder__wrap">
 													{% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
@@ -159,10 +162,10 @@
 												</div>
 											{% endif %}
 										</div>
-										
+
 										<div class="layer_2">
 											<span class="collection_title">{{ collection.title }}</span>
-											
+
 											<span class="collection_products">{{ collection.products_count }} products</span>
 										</div>
 									</a>
@@ -173,25 +176,25 @@
 											{{ 'collection-' | append: current | placeholder_svg_tag: 'img_placeholder' }}
 										</div>
 									</div>
-									
+
 									<div class="layer_2">
 										<span class="collection_title">Collection</span>
-										
+
 										<span class="collection_products">100 products</span>
 									</div>
 								{% endif %}
 							</div>
 						</div>
-						
+
 						{% when 'html' %}
 						{% if block.settings.code.size > 0 %}
 							{{ block.settings.code }}
 						{% endif %}
-						
+
 						{% endcase %}
 					</div>
 				</div>
-			
+
 			{% endfor %}
 			</div>
 		</div>
@@ -228,14 +231,14 @@
 			],
 			"default":   "container"
 		},
-		
+
 		{
 			"type": "checkbox",
 			"id": "reset_indent",
 			"label": "Remove indent",
 			"default":   false
 		},
-		
+
 		{
 			"type": "text",
 			"id": "inset_section",
@@ -243,7 +246,7 @@
 			"default": "0px 0px 0px 0px",
 			"info": "inset: Top Right Bottom Left (px/em/%/). Or use one value if all insets are equal"
 		},
-		
+
 		{
 			"type": "text",
 			"id": "offset_section",
@@ -251,14 +254,14 @@
 			"default": "0px 0px 0px 0px",
 			"info": "offset: Top Right Bottom Left"
 		},
-		
+
 		{
 			"type": "color",
 			"id": "bg_section",
 			"label": "Background Section",
 			"default": "#ffffff"
 		},
-  
+
   		{
   			"type": "checkbox",
   			"id": "use_bg_grad2",
@@ -266,14 +269,14 @@
   			"default": false,
   			"info": "Settings gradient type 2 in theme settings"
   		},
-  
+
 		{
 			"type": "text",
 			"id": "title",
 			"label": "Heading",
 			"default": "Custom content"
 		},
-		
+
 		{
 			"type": "checkbox",
 			"id": "inverted",
@@ -348,7 +351,7 @@
 			}
 		]
 	},
-	
+
 	// TEXT ///////////////////////////////////////////////////////////////////////////////////////////
 		{
 		"type": "text",
@@ -379,7 +382,7 @@
 				}
 			]
 		},
-	
+
 		{
 			"type": "select",
 			"id": "h_cpos",
@@ -398,10 +401,10 @@
 					"label": "Right position",
 					"value": "end"
 				}
-			
+
 			]
 		},
-	
+
 		{
 			"type": "select",
 			"id": "v_cpos",
@@ -423,42 +426,42 @@
 				}
 			]
 		},
-	
+
 		{
 			"type": "richtext",
 			"id": "item_title",
 			"label": "Caption title",
 			"default": "<p>Caption title</p>"
 		},
-		
+
 		{
 			"type": "color",
 			"id": "color_title",
 			"label": "Color",
 			"default": "#121212"
 		},
-		
+
 		{
 			"type": "richtext",
 			"id": "item_subtitle",
 			"label": "Caption subtitle",
 			"default": "<p>Caption text</p>"
 		},
-		
+
 		{
 			"type": "color",
 			"id": "color_subtitle",
 			"label": "Color",
 			"default": "#121212"
 		},
-		
+
 		{
 			"type": "richtext",
 			"id": "item_text",
 			"label": "Caption text",
 			"default": "<p>Caption text</p>"
 		},
-		
+
 		{
 			"type": "color",
 			"id": "color_text",
@@ -476,12 +479,12 @@
 			"id": "block_link",
 			"label": "Block link"
 		},
-		
+
 		{
 			"type": "paragraph",
 			"content": "> Button style"
 		},
-		
+
 		{
 			"type": "radio",
 			"id": "btn_style",
@@ -510,7 +513,7 @@
   				}
 			]
 		},
-		
+
 		{
 			"type": "radio",
 			"id": "btn_size",

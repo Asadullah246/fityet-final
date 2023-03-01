@@ -8,7 +8,7 @@
     <a href="{{ shop.url }}" class="site-header__link site-header__logo-link" itemprop="url">{{ shop.name }}</a>
   </div>
 
-  <h1>{{ 'gift_cards.issued.subtext' | t }}</h1>
+  <h1>{{ 'gift_cards.issued.subtext' | t }}sssssss</h1>
   {% unless gift_card.enabled %}
     <p class="giftcard__tag">{{ 'gift_cards.issued.disabled' | t }}</p>
   {% endunless %}
@@ -23,6 +23,7 @@
 
 <div class="giftcard-wrapper">
   <main class="giftcard" role="main">
+
     <div class="giftcard__wrap">
       <img src="{{ 'gift-card/card.jpg' | shopify_asset_url }}" alt="">
 
