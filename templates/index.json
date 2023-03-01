@@ -404,7 +404,7 @@
         "products_view": "4",
         "off_carousel_nav": true,
         "off_carousel_pag": true,
-        "carousel_control_type": "pagination",
+        "carousel_control_type": "fraction",
         "design_type": "type_1"
       }
     },
