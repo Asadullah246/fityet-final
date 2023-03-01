@@ -594,10 +594,10 @@
         "all_view": true,
         "products_count": "4",
         "column_item": "25%",
-        "carousel_view": true,
+        "carousel_view": false,
         "products_view": "4",
         "off_carousel_nav": true,
-        "off_carousel_pag": false,
+        "off_carousel_pag": true,
         "carousel_control_type": "pagination",
         "design_type": "type_1"
       }
