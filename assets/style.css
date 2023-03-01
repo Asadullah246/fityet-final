@@ -82,6 +82,7 @@ padding-top: 30px !important;
 .caption-text .block-title {
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
+
 }
 
 .caption-item p{
@@ -90,6 +91,7 @@ padding-top: 30px !important;
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
     line-height: normal !important;
+    font-size: 0.7em !important;
 }
 .caption-item h5{
     font-weight: 500 !important;
@@ -103,15 +105,49 @@ padding-top: 30px !important;
 }
 .section .banner-caption {
     padding-top: 12px !important;
-    padding-bottom: 20px !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    /* padding-bottom: 20px !important; */
 }
 .btn-secondary{
     color: white;
     border-radius: 45px;
     border: 1px solid white;
     font-weight: 600;
+    margin-bottom: 20px !important;
 }
 
+#shopify-section-template--18057764241682__16414608074ede0d57 > div > div > div > div:nth-child(1),
+#shopify-section-template--18057764241682__16414608074ede0d57 > div > div > div > div:nth-child(2){
+    position: relative ;
+}
+
+#shopify-section-template--18057764241682__16414608074ede0d57 > div > div > div > div:nth-child(1) > div > div ::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    margin-left: -5px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: #F63C25 transparent transparent transparent;
+  }
+
+  #shopify-section-template--18057764241682__16414608074ede0d57 > div > div > div > div:nth-child(2) > div > div ::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        right: 70%;
+        margin-left: -5px;
+        border-width: 12px;
+        border-style: solid;
+        border-color: #F63C25 transparent transparent transparent;
+  }
+
+
+  #shopify-section-template--18057764241682__1627900045d25f9b47 > div.divider_item.d-none.d-lg-block.container{
+    padding: 30px 0 !important;
+  }
 
 
 /* card  */
