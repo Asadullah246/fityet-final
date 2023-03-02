@@ -2,6 +2,43 @@
   "sections": {
     "template-collection": {
       "type": "template-collection",
+      "blocks": {
+        "d2e1b1a4-d4f1-43a4-a29e-ebfd255bedf3": {
+          "type": "widget_collections",
+          "settings": {
+            "title": "Sidebar Collections",
+            "widget_open_toggle": false
+          }
+        },
+        "9620b758-cd16-48bf-9a18-96c05c454f90": {
+          "type": "widget_filter",
+          "settings": {
+            "title": "",
+            "widget_open_toggle": false
+          }
+        },
+        "8609f328-b71d-4400-b489-006c56f027d9": {
+          "type": "widget_products",
+          "settings": {
+            "title": "Sidebar Products",
+            "products_collections": ""
+          }
+        },
+        "6c763546-4bc1-4a26-a771-c2a32417a2c3": {
+          "type": "widget_linklist",
+          "settings": {
+            "title": "Sidebar Linklist",
+            "links": "",
+            "widget_open_toggle": false
+          }
+        }
+      },
+      "block_order": [
+        "d2e1b1a4-d4f1-43a4-a29e-ebfd255bedf3",
+        "9620b758-cd16-48bf-9a18-96c05c454f90",
+        "8609f328-b71d-4400-b489-006c56f027d9",
+        "6c763546-4bc1-4a26-a771-c2a32417a2c3"
+      ],
       "settings": {
         "sidebar_collection_toggle": true,
         "sidebar_collection_position": "sidebar_left",
