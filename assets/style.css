@@ -24,11 +24,22 @@ main{
 }
 #menu_7f51d47e-c2c3-4c21-873d-0841c1e54f80 > li > a{
     font-weight: 800 !important;
-    font-family: 'Barlow', sans-serif !important; 
+    font-family: 'Barlow', sans-serif !important;
 }
 
 #megamenu_level__1 > li :hover{
     color: #F63C25;
+}
+
+.header_cart{
+    background: #F63C25;
+    /* height: 50vw !important; */
+    /* width: 100vw !important; */
+}
+.cart_content_box{
+    background: #F63C25 !important;
+    /* height: 50vw !important; */
+    /* width: 100vw !important; */
 }
 
 /* header banner  */

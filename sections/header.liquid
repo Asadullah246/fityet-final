@@ -7,7 +7,7 @@
 {% if template == 'index' and ss_item.header_absolute %}
 	{%- assign  header_abs = true -%}
 {% endif %}
-  
+
 {%- assign sticky = false -%}
 {%- if ss_item.header_sticky -%}
 	{%- assign hsticky = true -%}
@@ -17,6 +17,7 @@
 {%- if ss_item.header_topbar -%}
 	{%- assign topbar = true -%}
 {%- endif -%}
+{% comment %} #page_header > div.header-layout-1.header_layout_common > div.header-sticky.d-none.d-xl-block.stickUpHeader.megamenu_stuck > div > div > div.col-auto.d-flex.justify-content-end.align-items-center.position-static.header_items_wrapper > div:nth-child(3) > div > a {% endcomment %}
 
 {%- assign bottombar = false -%}
 {%- if ss_item.header_bottombar -%}
@@ -42,7 +43,7 @@
 <noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
 
 <style>
-	
+
     .list-menu {
         list-style: none;
         padding: 0;
@@ -87,9 +88,9 @@
 			{% include 'header-topbar' %}
 		</div>
 	{% endif %}
-	
+
 	<div class="{{ layout_file }} header_layout_common">
-		
+
 		{% if hsticky %}
 			<div id="pseudo_sticky_block"></div>
 			<div class="header-sticky d-none d-xl-block stickUpHeader">
@@ -107,7 +108,7 @@
 							  {% assign logo_width = ss_item.logo_width %}
 							  {% assign logo_type = ss_item.logo_type %}
 							  {% assign logo_i = ss_item.logo_main %}
-							  
+
 							  {% assign logo_alt = ss_item.logo_main.alt | default: shop.name %}
 							  {% assign logo_src = ss_item.logo_main | img_url: logo_size, crop:'center' %}
 							  <div>
@@ -131,7 +132,7 @@
 									{% include 'header-account' %}
 								</div>
 							{% endif %}
-							
+
 							{% if ss_item.header_search %}
 								<div class="item_left_spacer {% if ajax_search == false %} order-xl-first mr-xl-2{% endif %}">
 									{% if ajax_search %}
@@ -141,20 +142,20 @@
 									{% endif %}
 								</div>
 							{% endif %}
-							
+
 							{% if ss_item.enable_header_wishlist %}
 								<div class="item_left_spacer">
 									{% include "header-wishlist" %}
 								</div>
 							{% endif %}
-							
+
 							{% if ss_item.header_cart %}
 								<div class="item_left_spacer">
 									{%- assign ajax_cart = ss_item.ajax_cart -%}
 									{% include 'header-cart' ajax: ajax_cart, style: 'type_2' %}
 								</div>
 							{% endif %}
-						  
+
 						  	{% unless topbar and ss_item.header_tb_cs %}
 								{%- if  ss_item.use_currency_selector  -%}
 								  <div class="item_left_spacer">
@@ -162,28 +163,28 @@
 								  </div>
 								{%- endif -%}
 						  	{% endunless %}
-						 
+
 						</div>
 					</div>
 				</div>
 			</div>
 		{% endif %}
-		
+
 		<div class="{% if header_abs %}header-absolute inverted {% endif %}{% unless header_abs %}{% if ss_item.inverted_headermain %}inverted{% endif %}{% endunless %}"
 			{% unless header_abs %}style="background-color: {{ ss_item.bg_headermain}};"{% endunless %}>
 			{% include layout_file %}
 		</div>
-		
+
 	</div>
-	
+
 	{% if bottombar %}
 		<div class="d-lg-block d-none">
 			{% include 'header-bottombar' %}
 		</div>
 	{% endif %}
-	
+
 	{% include "header-mobile" %}
-	
+
 	{% if ajax_search %}
 		<div class="header_search header_search-with-toggle">
 			<div class="search_form_wrap focus">
@@ -192,17 +193,17 @@
 			<div class="search_form_overlay"></div>
 		</div>
 	{% endif %}
-	
+
 	<style>
-		
+
 		header .container {
 			max-width: {{ ss_item.headermaxwidth }}px;
 		}
-		
+
 		.header-sticky .header_items_wrapper .header_icon .link_text {
 			display: none!important;
 		}
-		
+
 		.header-sticky .header_items_wrapper .header_icon .svg-icon  {
 			display: block!important;
 		}
@@ -222,35 +223,35 @@
   this.elements.button.addEventListener('click', this.openSelector.bind(this));
   this.elements.button.addEventListener('focusout', this.closeSelector.bind(this));
   this.addEventListener('keyup', this.onContainerKeyUp.bind(this));
-  
+
   this.querySelectorAll('a').forEach(item => item.addEventListener('click', this.onItemClick.bind(this)));
   }
-  
+
   hidePanel() {
   this.elements.button.setAttribute('aria-expanded', 'false');
   this.elements.panel.setAttribute('hidden', true);
   }
-  
+
   onContainerKeyUp(event) {
   if (event.code.toUpperCase() !== 'ESCAPE') return;
-  
+
   this.hidePanel();
   this.elements.button.focus();
   }
-  
+
   onItemClick(event) {
   event.preventDefault();
   const form = this.querySelector('form');
   this.elements.input.value = event.currentTarget.dataset.value;
   if (form) form.submit();
   }
-  
+
   openSelector() {
   this.elements.button.focus();
   this.elements.panel.toggleAttribute('hidden');
   this.elements.button.setAttribute('aria-expanded', (this.elements.button.getAttribute('aria-expanded') === 'false').toString());
   }
-  
+
   closeSelector(event) {
   const shouldClose = event.relatedTarget && event.relatedTarget.nodeName === 'BUTTON';
   if (event.relatedTarget === null || shouldClose) {
@@ -258,7 +259,7 @@
   }
   }
   }
-  
+
   customElements.define('localization-form', LocalizationForm);
 {% endjavascript %}
 
@@ -272,7 +273,7 @@
 			"type": "header",
 			"content": "Header Layout settings"
 		},
-	
+
 		{
 			"type": "header",
 			"content": ">> HEADER MAX WIDTH"
@@ -291,7 +292,7 @@
 			"type": "header",
 			"content": " >> CUSTOM HEIGHT HEADER MAIN PART"
 		},
-	
+
 		{
 			"type": "range",
 			"id": "htheight",
@@ -352,7 +353,7 @@
 			"info": "Apply auto-inverted color (white)"
 		},
 
-		
+
 		{
 			"type": "color",
 			"id": "bg_headermain",
@@ -372,8 +373,8 @@
 			"type": "header",
 			"content": "Menu + something settings"
 		},
-	
-  
+
+
   		{
   			"type": "color",
   			"id": "bg_ms_h",
@@ -383,7 +384,7 @@
 
 		{
 			"type": "checkbox",
-			"id": "inverted_ms_h", 
+			"id": "inverted_ms_h",
 			"label": "Apply inverted color items (white) menu + something",
 			"default": false
 		},
@@ -398,14 +399,14 @@
 			"unit": "px",
 			"default": 46
 		},
-	
-	
-	
+
+
+
 		{
 			"type": "header",
 			"content": "Header components settings"
 		},
-	
+
 		// Main logo
 		{
 			"type": "header",
@@ -455,7 +456,7 @@
 			"id": "logo_main",
 			"label": "Logo image"
 		},
-	
+
 		{
 			"type": "checkbox",
 			"id": "use_logo_inverted",
@@ -463,7 +464,7 @@
 			"default": false,
   			"info": "Recommend to use for 'header position on over content'"
 		},
-	
+
 		{
 			"type": "image_picker",
 			"id": "logo_main_inverted",
@@ -488,14 +489,14 @@
 			"type": "header",
 			"content": ">> CURRENCIES SELECTOR"
 		},
-	
+
 		{
 			"type": "checkbox",
 			"id": "use_currency_selector",
 			"label": "Use currency selector",
 			"info": "More settings currencies see in Theme Settings"
 		},
-	
+
 		// Search
 		{
 			"type": "header",
@@ -685,7 +686,7 @@
 			"default": "center",
 			"info":   "Only desktop"
 		},
-  
+
   			{
   				"type": "link_list",
   				"id": "default_menu",
@@ -693,7 +694,7 @@
   				"label": "Default Menu",
   				"info": "Only If you don`t use megamenu"
   			},
-	
+
 		// TOP PANEL
 		{
 			"type": "header",
@@ -704,28 +705,28 @@
 			"id": "header_topbar",
 			"label": "Show Top panel"
 		},
-		
+
 		{
 			"type": "checkbox",
 			"id": "header_hidetopbar",
 			"label": "Hide Top panel on tablet/mobile",
 			"default": true
 		},
-	
+
 		{
 			"type": "color",
 			"id": "bg_topbar",
 			"label": "Background color",
 			"default": "#121212"
 		},
-	
+
 		{
 			"type": "checkbox",
 			"id": "inverted_topbar",
 			"label": "Apply inverted color items (white)",
 			"default": true
 		},
-		
+
 		{
 			"type": "range",
 			"id": "htbheight",
@@ -746,21 +747,21 @@
 			"label": "Show currencies selector in top bar",
 			"info": "disable selector in header main part"
 		},
-	
-	
+
+
 		// TXT LINK BOTTOM PANNEL
 		{
 			"type": "header",
 			"content": " Bottom panel link"
 		},
-	
+
 		{
 			"type": "checkbox",
 			"id": "header_bottombar",
 			"label": "Show Bottom panel",
 			"default": false
 		},
-	
+
 		{
 			"type": "text",
 			"id": "bottom_panel_text",
@@ -794,7 +795,7 @@
 			"id": "bottom_panel_link_3",
 			"label": "#3 link"
 		},
-	
+
 		{
 			"type": "range",
 			"id": "hbbheight",
@@ -805,7 +806,7 @@
 			"unit": "px",
 			"default": 35
 		},
-		
+
 		// SOCIAL MENU
 		{
 			"type": "header",
@@ -817,7 +818,7 @@
 			"label": "Show Social Menu",
 			"default": true
 		},
-		
+
 		// Phone number
 		{
 			"type": "header",
@@ -841,7 +842,7 @@
 			"label": "Number phone",
 			"default":"+3(800) 2345-67897"
 		},
-		
+
 		{
 			"type": "richtext",
 			"id": "top_panel_text",
@@ -849,35 +850,35 @@
 			"info": "hidden if enable text carousel",
 			"default": "<p>Enjoy FREE standard delivery on orders over $100</p>"
 		},
-		
-		
+
+
 		// TXT LINK
 		{
 			"type": "header",
 			"content": ">> TEXT CAROUSEL"
 		},
-		
+
 		{
 			"type": "checkbox",
 			"id": "use_txt_slider",
 			"label": "Enable text carousel",
 			"default": true
 		},
-		
+
 		{
 			"type": "richtext",
 			"id": "tb-item-text_1",
 			"label": "Text slide #1",
 			"default": "<p>Text slide #1</p>"
 		},
-		
+
 		{
 			"type": "richtext",
 			"id": "tb-item-text_2",
 			"label": "Text slide #1",
 			"default": "<p>Text slide #2</p>"
 		},
-		
+
 		{
 			"type": "richtext",
 			"id": "tb-item-text_3",
@@ -1154,19 +1155,19 @@
 				"label": "Inverted",
 				"default": false
 				},
-	
+
 				{
 					"type": "checkbox",
 					"id": "use_offset",
 					"label": "Use left offset banner",
 					"default": false
 				},
-				
+
 				{
 				"type": "header",
 				"content": "Banner 2"
 				},
-				
+
 				{
 				"type": "url",
 				"id": "banner_link_2",
@@ -1362,7 +1363,7 @@
 		"id": "single_product_2",
 		"label": "Choose product 2"
 		},
-		
+
 		// Banners
 		{
 		"type": "header",
@@ -1480,7 +1481,7 @@
 		"type": "header",
 		"content": "Banner 2"
 		},
-		
+
 		{
 		"type": "url",
 		"id": "banner_link_2",

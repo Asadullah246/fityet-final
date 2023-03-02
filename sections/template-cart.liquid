@@ -5,13 +5,14 @@
 			<form action="/cart" method="post" novalidate class="cart mt-4">
 				<div class="row">
 					<div class="col-12 cart_items_main">
-						
+
 						<div class="table-row table-row-head mb-0 d-none d-md-flex table-row-heading">
 							<div class="table-cell cart-product"><span>{{ 'pages.cart.product' | t }}</span></div>
 							<div class="table-cell cart-price"><span>{{ 'pages.cart.price' | t }}</span></div>
 							<div class="table-cell cart-quantity"><span>{{ 'pages.cart.product_quantity' | t }}</span></div>
 							<div class="table-cell cart-total"><span>{{ 'pages.cart.total' | t }}</span></div>
 						</div>
+
 						{% for item in cart.items %}
 						<div class="table-row table-labeled mb-3 mb-md-0">
 							<div class="table-cell cart-product">
@@ -91,7 +92,7 @@
 					<div class="col-12 col-lg-8 pr-xl-4 mt-4">
 						{% if section.settings.show_promofield %}
 							<div class="cart-promo">
-							
+
 								<div class="form-group row container-sm mx-0 mr-auto px-0">
 									<label class="mt-0 col-12 px-0">{{ 'pages.cart.promo_code_field' | t }}</label>
 									<div class="col-12 px-0 d-inline-flex">
@@ -203,7 +204,7 @@
 						{% endif %}
 					</div>
 				</div>
-				
+
 			</form>
 		{% else %}
 			<div class="cart_empty text-center mt-4 mt-md-7 mt-xl-10">
@@ -242,7 +243,7 @@
 			"id": "show_policy",
 			"label": "Show Policy"
 		},
-		
+
 		{
 			"type": "url",
 			"id": "security_page",
