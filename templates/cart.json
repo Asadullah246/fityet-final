@@ -3,7 +3,7 @@
     "template-cart": {
       "type": "template-cart",
       "settings": {
-        "show_promofield": false,
+        "show_promofield": true,
         "show_policy": false,
         "security_page": "shopify:\/\/policies\/terms-of-service",
         "security_text": "Security policy",
