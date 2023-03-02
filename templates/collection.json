@@ -89,9 +89,9 @@
         "bg_section": "#ffffff",
         "item_heading": "<h2>SHOP<\/h2>",
         "item_text": "",
-        "show_items_count": true,
+        "show_items_count": false,
         "style": "type_h_2",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "img_alignment": "center",
         "show_view_all": false,
         "show_carousel": true
