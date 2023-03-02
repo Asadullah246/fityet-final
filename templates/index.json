@@ -674,6 +674,7 @@
     },
     "35a25ba5-5b97-4960-a411-fe642dd653c9": {
       "type": "index-image-with-text-overlay",
+      "disabled": true,
       "blocks": {
         "template--18069642248466__35a25ba5-5b97-4960-a411-fe642dd653c9-167778158624373037-0": {
           "type": "heading_h6",
@@ -737,13 +738,17 @@
         "template--18069642248466__35a25ba5-5b97-4960-a411-fe642dd653c9-167778158624373037-2",
         "template--18069642248466__35a25ba5-5b97-4960-a411-fe642dd653c9-167778158624373037-3"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "container_width": "container",
-        "inset_section": "0px 0px 0px 0px",
+        "inset_section": "0 0 0 0",
         "offset_section": "0px 0px 0px 0px",
         "bg_section": "#ffffff",
         "padding_desktop": 300,
         "padding_mobile": 175,
+        "image": "shopify:\/\/shop_images\/retail-shopping-package.jpg",
         "bg_pos_mobile": 50,
         "use_bgo": false,
         "bg_color": "",
@@ -758,7 +763,7 @@
         "caption_bg_color": "",
         "caption_bg_color_opacity": 0.5,
         "inset_caption": "6% 7% 6% 7%",
-        "offset_caption": "0 0 0 0",
+        "offset_caption": "10 0 0 0",
         "caption_animation": "none"
       }
     },
