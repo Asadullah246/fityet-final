@@ -84,7 +84,7 @@
       "settings": {
         "container_width": "container",
         "reset_indent": false,
-        "inset_section": "0px 0px 0px 0px",
+        "inset_section": "10px 10px 10px 10px",
         "offset_section": "px 0px 0px 0px",
         "bg_section": "#ffffff",
         "item_heading": "<h2>SHOP<\/h2>",
