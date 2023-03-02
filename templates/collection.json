@@ -82,12 +82,24 @@
             "caption_bg_color_opacity": 0,
             "custom_collection_class": ""
           }
+        },
+        "5b38bfc5-f716-47ed-b6be-66e72268afdc": {
+          "type": "featured_collection",
+          "settings": {
+            "item_collection": "fitness-gear",
+            "column_item": "4",
+            "position-caption": "bottom",
+            "caption_bg_color": "#ffffff",
+            "caption_bg_color_opacity": 0,
+            "custom_collection_class": ""
+          }
         }
       },
       "block_order": [
         "template--18069637726482__00fe86a2-0a94-4599-bed6-1cc5a65f5ab3-16777754067b9d1724-0",
         "template--18069637726482__00fe86a2-0a94-4599-bed6-1cc5a65f5ab3-16777754067b9d1724-1",
-        "8ab6e7b7-ca14-4ed0-b5b5-028658b8f581"
+        "8ab6e7b7-ca14-4ed0-b5b5-028658b8f581",
+        "5b38bfc5-f716-47ed-b6be-66e72268afdc"
       ],
       "settings": {
         "container_width": "container",
@@ -102,7 +114,7 @@
         "image_ratio": "portrait",
         "img_alignment": "top",
         "show_view_all": false,
-        "show_carousel": false
+        "show_carousel": true
       }
     }
   },
