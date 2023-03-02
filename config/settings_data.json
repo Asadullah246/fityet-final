@@ -1504,8 +1504,8 @@
           "7f51d47e-c2c3-4c21-873d-0841c1e54f80"
         ],
         "settings": {
-          "headermaxwidth": 1590,
-          "htheight": 121,
+          "headermaxwidth": 1360,
+          "htheight": 92,
           "header_sticky": false,
           "header_type": "1",
           "header_absolute": false,
