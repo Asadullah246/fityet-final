@@ -1442,8 +1442,8 @@
           "244cce6d-7668-4795-ba06-8dbaeb49f5e7": {
             "type": "link-simple",
             "settings": {
-              "title": "Shop nOw",
-              "link": "shopify:\/\/collections",
+              "title": "Shop Now",
+              "link": "shopify:\/\/collections\/all",
               "badge_text": "",
               "badge_color": "#f63c25",
               "bg_color": "#f63c25",
