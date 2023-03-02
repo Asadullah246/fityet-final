@@ -1438,9 +1438,74 @@
       },
       "header": {
         "type": "header",
+        "blocks": {
+          "244cce6d-7668-4795-ba06-8dbaeb49f5e7": {
+            "type": "link-simple",
+            "settings": {
+              "title": "Shop Now",
+              "link": "shopify:\/\/collections\/all",
+              "badge_text": "",
+              "badge_color": "#f63c25",
+              "bg_color": "#f63c25",
+              "custom_item_class": ""
+            }
+          },
+          "00e60213-b8e4-4f07-be43-e2513e195b02": {
+            "type": "link-simple",
+            "settings": {
+              "title": "Accessories",
+              "link": "shopify:\/\/collections\/accessories",
+              "badge_text": "",
+              "badge_color": "#121212",
+              "bg_color": "#1c54e2",
+              "custom_item_class": ""
+            }
+          },
+          "d34ca0c3-327a-4196-acb7-8bdd25517eaf": {
+            "type": "link-simple",
+            "settings": {
+              "title": "Fitness Gear",
+              "link": "shopify:\/\/collections\/fitness-gear",
+              "badge_text": "",
+              "badge_color": "#121212",
+              "bg_color": "#1c54e2",
+              "custom_item_class": ""
+            }
+          },
+          "665ddad7-d7ec-45bc-a6b3-f0b99bf1c190": {
+            "type": "link-simple",
+            "settings": {
+              "title": "New Arrival",
+              "link": "shopify:\/\/collections\/supplements-and-vitamins",
+              "badge_text": "",
+              "badge_color": "#121212",
+              "bg_color": "#1c54e2",
+              "custom_item_class": ""
+            }
+          },
+          "7f51d47e-c2c3-4c21-873d-0841c1e54f80": {
+            "type": "link-linklist",
+            "settings": {
+              "title": "Others",
+              "link": "",
+              "links": "others",
+              "badge_text": "",
+              "badge_color": "#121212",
+              "bg_color": "#394cb3",
+              "custom_item_class": ""
+            }
+          }
+        },
+        "block_order": [
+          "244cce6d-7668-4795-ba06-8dbaeb49f5e7",
+          "00e60213-b8e4-4f07-be43-e2513e195b02",
+          "d34ca0c3-327a-4196-acb7-8bdd25517eaf",
+          "665ddad7-d7ec-45bc-a6b3-f0b99bf1c190",
+          "7f51d47e-c2c3-4c21-873d-0841c1e54f80"
+        ],
         "settings": {
-          "headermaxwidth": 1590,
-          "htheight": 121,
+          "headermaxwidth": 1200,
+          "htheight": 75,
           "header_sticky": false,
           "header_type": "1",
           "header_absolute": false,
@@ -1449,10 +1514,10 @@
           "bg_ms_h": "#ffffff",
           "inverted_ms_h": false,
           "h_ms_height": 70,
-          "logo_type": "txt",
-          "logo_width": 200,
+          "logo_type": "img",
+          "logo_width": 100,
           "logo_height": 80,
-          "logo_main": "shopify:\/\/shop_images\/200_Fityet_logo4.jpg",
+          "logo_main": "shopify:\/\/shop_images\/logo3.png",
           "use_logo_inverted": false,
           "logo_txt": "",
           "logo_slogan": "",
@@ -1475,7 +1540,7 @@
           "bg_topbar": "#ffffff",
           "inverted_topbar": false,
           "htbheight": 40,
-          "header_tb_cs": false,
+          "header_tb_cs": true,
           "header_bottombar": false,
           "bottom_panel_text": "#1 link text",
           "bottom_panel_link": "",
