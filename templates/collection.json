@@ -5,7 +5,7 @@
       "settings": {
         "sidebar_collection_toggle": true,
         "sidebar_collection_position": "sidebar_left",
-        "enable_filter_column": true,
+        "enable_filter_column": false,
         "enable_filtering": false,
         "enable_sorting": true,
         "enable_viewing": true,
