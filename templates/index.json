@@ -799,7 +799,7 @@
             "block_collection": "accessories",
             "item_style": "grid",
             "item_line_count": 2,
-            "item_line_gap": 30,
+            "item_line_gap": 19,
             "carousel_view": true,
             "items_view": "4",
             "off_carousel_nav": false,
@@ -809,6 +809,7 @@
         },
         "template--18069642248466__7065bb15-10eb-42aa-aefc-c1abf92f727c-167778316151e14bce-1": {
           "type": "banner",
+          "disabled": true,
           "settings": {
             "block_title": "",
             "block_text": "",
