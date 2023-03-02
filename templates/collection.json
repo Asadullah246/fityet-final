@@ -46,7 +46,7 @@
         "container_width": "container",
         "reset_indent": false,
         "inset_section": "5px 100px 0px 100px",
-        "offset_section": "0px 0px 0px 0px",
+        "offset_section": "10px 10px 10px 10px",
         "bg_section": "#ffffff",
         "item_heading": "<p>Collections heading<\/p>",
         "item_text": "Collections subheading",
