@@ -1483,37 +1483,16 @@
               "custom_item_class": ""
             }
           },
-          "5a7a62e3-9ada-4ae9-b900-dc7d782da4ed": {
-            "type": "3link-2banners",
+          "7f51d47e-c2c3-4c21-873d-0841c1e54f80": {
+            "type": "link-linklist",
             "settings": {
               "title": "Others",
-              "link": "#",
-              "show_title": false,
+              "link": "shopify:\/\/pages\/contact-us",
+              "links": "",
               "badge_text": "",
               "badge_color": "#121212",
               "bg_color": "#394CB3",
-              "links_1": "main-menu",
-              "links_2": "",
-              "links_3": "",
-              "banner_link_1": "",
-              "item_title_1": "",
-              "item_subtitle_1": "",
-              "item_text_1": "",
-              "banner_style_1": "type-1",
-              "banner_position_vertical_1": "center",
-              "banner_position_horizontal_1": "center",
-              "banner_align_1": "center",
-              "banner_inverted_1": false,
-              "use_offset": false,
-              "banner_link_2": "",
-              "item_title_2": "",
-              "item_subtitle_2": "",
-              "item_text_2": "",
-              "banner_style_2": "type-1",
-              "banner_position_vertical_2": "center",
-              "banner_position_horizontal_2": "center",
-              "banner_align_2": "center",
-              "banner_inverted_2": false
+              "custom_item_class": ""
             }
           }
         },
@@ -1522,7 +1501,7 @@
           "00e60213-b8e4-4f07-be43-e2513e195b02",
           "d34ca0c3-327a-4196-acb7-8bdd25517eaf",
           "665ddad7-d7ec-45bc-a6b3-f0b99bf1c190",
-          "5a7a62e3-9ada-4ae9-b900-dc7d782da4ed"
+          "7f51d47e-c2c3-4c21-873d-0841c1e54f80"
         ],
         "settings": {
           "headermaxwidth": 1590,
