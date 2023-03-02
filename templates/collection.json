@@ -67,7 +67,7 @@
         "item_text": "",
         "show_items_count": true,
         "style": "type_h_2",
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "img_alignment": "top",
         "show_view_all": false,
         "show_carousel": true
