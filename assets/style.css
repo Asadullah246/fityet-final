@@ -13,6 +13,24 @@ main{
     /* width: auto !important; */
 }
 
+#megamenu_level__1 > li {
+    transition: ease-in-out 0.2s;
+
+}
+#megamenu_level__1 > li > a , #megamenu_level__1 > li > span {
+    font-weight: 800 !important;
+    font-family: 'Barlow', sans-serif !important;
+
+}
+#menu_7f51d47e-c2c3-4c21-873d-0841c1e54f80 > li > a{
+    font-weight: 800 !important;
+    font-family: 'Barlow', sans-serif !important; 
+}
+
+#megamenu_level__1 > li :hover{
+    color: #F63C25;
+}
+
 /* header banner  */
 
 /* .swiper-container-autoheight{
