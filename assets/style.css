@@ -5,6 +5,14 @@ main{
     font-family: 'Barlow', sans-serif !important;
 }
 
+/* navbar  */
+
+#page_header > div.header-layout-1.header_layout_common > div > div > div > div > div.col-md.col-xl-2.d-xl-flex.justify-content-start > div > div > div > div > a > img{
+    height: 60px !important;
+    /* margin-top: 20px !important; */
+    width: auto !important;
+}
+
 /* header banner  */
 
 /* .swiper-container-autoheight{
@@ -144,9 +152,10 @@ padding-top: 30px !important;
         bottom: 100%;
         right: 70%;
         margin-left: -5px;
+        margin-bottom: 12px;
         border-width: 12px;
         border-style: solid;
-        border-color: #F63C25 transparent transparent transparent;
+        border-color:  transparent transparent #F63C25 transparent;
   }
 
 
