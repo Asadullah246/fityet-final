@@ -65,11 +65,11 @@
         "bg_section": "#ffffff",
         "item_heading": "<h2>SHOP<\/h2>",
         "item_text": "",
-        "show_items_count": false,
+        "show_items_count": true,
         "style": "type_h_2",
         "image_ratio": "square",
         "img_alignment": "center",
-        "show_view_all": true,
+        "show_view_all": false,
         "show_carousel": true
       }
     },
