@@ -46,9 +46,68 @@
         "custom_collection_class": "",
         "collection_img_alignment": "center"
       }
+    },
+    "00fe86a2-0a94-4599-bed6-1cc5a65f5ab3": {
+      "type": "index-collection-list",
+      "blocks": {
+        "template--18069637726482__00fe86a2-0a94-4599-bed6-1cc5a65f5ab3-16777754067b9d1724-0": {
+          "type": "featured_collection",
+          "settings": {
+            "item_collection": "accessories",
+            "column_item": "4",
+            "position-caption": "bottom",
+            "caption_bg_color": "#ffffff",
+            "caption_bg_color_opacity": 0,
+            "custom_collection_class": ""
+          }
+        },
+        "template--18069637726482__00fe86a2-0a94-4599-bed6-1cc5a65f5ab3-16777754067b9d1724-1": {
+          "type": "featured_collection",
+          "settings": {
+            "item_collection": "best-selling-collection",
+            "column_item": "4",
+            "position-caption": "bottom",
+            "caption_bg_color": "#ffffff",
+            "caption_bg_color_opacity": 0,
+            "custom_collection_class": ""
+          }
+        },
+        "8ab6e7b7-ca14-4ed0-b5b5-028658b8f581": {
+          "type": "featured_collection",
+          "settings": {
+            "item_collection": "featured-products",
+            "column_item": "4",
+            "position-caption": "bottom",
+            "caption_bg_color": "#ffffff",
+            "caption_bg_color_opacity": 0,
+            "custom_collection_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18069637726482__00fe86a2-0a94-4599-bed6-1cc5a65f5ab3-16777754067b9d1724-0",
+        "template--18069637726482__00fe86a2-0a94-4599-bed6-1cc5a65f5ab3-16777754067b9d1724-1",
+        "8ab6e7b7-ca14-4ed0-b5b5-028658b8f581"
+      ],
+      "settings": {
+        "container_width": "container",
+        "reset_indent": false,
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ffffff",
+        "item_heading": "<h1>SHOP<\/h1>",
+        "item_text": "",
+        "show_items_count": true,
+        "style": "type_h_1",
+        "image_ratio": "portrait",
+        "img_alignment": "top",
+        "show_view_all": false,
+        "show_carousel": false
+      }
     }
   },
   "order": [
-    "template-collection"
+    "template-collection",
+    "00fe86a2-0a94-4599-bed6-1cc5a65f5ab3"
   ]
 }
