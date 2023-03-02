@@ -1438,6 +1438,22 @@
       },
       "header": {
         "type": "header",
+        "blocks": {
+          "244cce6d-7668-4795-ba06-8dbaeb49f5e7": {
+            "type": "link-simple",
+            "settings": {
+              "title": "Shop nOw",
+              "link": "shopify:\/\/collections",
+              "badge_text": "",
+              "badge_color": "#f63c25",
+              "bg_color": "#f63c25",
+              "custom_item_class": ""
+            }
+          }
+        },
+        "block_order": [
+          "244cce6d-7668-4795-ba06-8dbaeb49f5e7"
+        ],
         "settings": {
           "headermaxwidth": 1590,
           "htheight": 121,
