@@ -9,18 +9,10 @@
             "title": "Filter",
             "widget_open_toggle": true
           }
-        },
-        "37b2a5cf-5c71-4f77-8aeb-333ac36e100d": {
-          "type": "widget_collections",
-          "settings": {
-            "title": "SIZE",
-            "widget_open_toggle": true
-          }
         }
       },
       "block_order": [
-        "5f429381-70ce-4bf4-99f2-d5275832d3c4",
-        "37b2a5cf-5c71-4f77-8aeb-333ac36e100d"
+        "5f429381-70ce-4bf4-99f2-d5275832d3c4"
       ],
       "settings": {
         "sidebar_collection_toggle": true,
