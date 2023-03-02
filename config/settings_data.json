@@ -1457,7 +1457,7 @@
               "link": "shopify:\/\/collections\/accessories",
               "badge_text": "",
               "badge_color": "#121212",
-              "bg_color": "#1C54E2",
+              "bg_color": "#1c54e2",
               "custom_item_class": ""
             }
           },
@@ -1468,7 +1468,7 @@
               "link": "shopify:\/\/collections\/fitness-gear",
               "badge_text": "",
               "badge_color": "#121212",
-              "bg_color": "#1C54E2",
+              "bg_color": "#1c54e2",
               "custom_item_class": ""
             }
           },
@@ -1479,7 +1479,7 @@
               "link": "shopify:\/\/collections\/supplements-and-vitamins",
               "badge_text": "",
               "badge_color": "#121212",
-              "bg_color": "#1C54E2",
+              "bg_color": "#1c54e2",
               "custom_item_class": ""
             }
           },
@@ -1488,10 +1488,10 @@
             "settings": {
               "title": "Others",
               "link": "",
-              "links": "",
+              "links": "others",
               "badge_text": "",
               "badge_color": "#121212",
-              "bg_color": "#394CB3",
+              "bg_color": "#394cb3",
               "custom_item_class": ""
             }
           }
