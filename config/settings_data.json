@@ -1540,7 +1540,7 @@
           "bg_topbar": "#ffffff",
           "inverted_topbar": false,
           "htbheight": 40,
-          "header_tb_cs": false,
+          "header_tb_cs": true,
           "header_bottombar": false,
           "bottom_panel_text": "#1 link text",
           "bottom_panel_link": "",
