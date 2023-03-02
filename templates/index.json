@@ -640,41 +640,6 @@
         "design_type": "type_1"
       }
     },
-    "94cf2551-cc1a-4dba-b895-e0b66e81c171": {
-      "type": "index-featured-products",
-      "blocks": {
-        "d7d2f098-d2f1-427a-b458-91656fd7df7e": {
-          "type": "collection_tab",
-          "settings": {
-            "section_title": "",
-            "block_collection_title": "",
-            "block_collection": "featured-products"
-          }
-        }
-      },
-      "block_order": [
-        "d7d2f098-d2f1-427a-b458-91656fd7df7e"
-      ],
-      "settings": {
-        "section_title": "WORK OUT EQUIPMENT",
-        "section_subtitle": "",
-        "container_width": "container",
-        "bg_section": "#ffffff",
-        "inset_section": "0px 0px 0px 0px",
-        "offset_section": "0px 0px 0px 0px",
-        "reset_indent": false,
-        "use_tabs": false,
-        "all_view": false,
-        "products_count": "4",
-        "column_item": "25%",
-        "carousel_view": false,
-        "products_view": "4",
-        "off_carousel_nav": true,
-        "off_carousel_pag": true,
-        "carousel_control_type": "fraction",
-        "design_type": "type_2"
-      }
-    },
     "302004e4-ae6d-4e5e-8f95-1846df141292": {
       "type": "index-logo-list",
       "blocks": {
@@ -719,6 +684,41 @@
         "off_carousel_nav": false,
         "off_carousel_pag": false,
         "carousel_control_type": "pagination"
+      }
+    },
+    "94cf2551-cc1a-4dba-b895-e0b66e81c171": {
+      "type": "index-featured-products",
+      "blocks": {
+        "d7d2f098-d2f1-427a-b458-91656fd7df7e": {
+          "type": "collection_tab",
+          "settings": {
+            "section_title": "",
+            "block_collection_title": "",
+            "block_collection": "featured-products"
+          }
+        }
+      },
+      "block_order": [
+        "d7d2f098-d2f1-427a-b458-91656fd7df7e"
+      ],
+      "settings": {
+        "section_title": "WORK OUT EQUIPMENT",
+        "section_subtitle": "",
+        "container_width": "container",
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "reset_indent": false,
+        "use_tabs": false,
+        "all_view": false,
+        "products_count": "4",
+        "column_item": "25%",
+        "carousel_view": false,
+        "products_view": "4",
+        "off_carousel_nav": true,
+        "off_carousel_pag": true,
+        "carousel_control_type": "fraction",
+        "design_type": "type_2"
       }
     },
     "35a25ba5-5b97-4960-a411-fe642dd653c9": {
@@ -849,8 +849,8 @@
     "1627900045d25f9b47",
     "1641461809a3f9d929",
     "874a897b-5c48-41e0-a513-6a81e20836a8",
-    "94cf2551-cc1a-4dba-b895-e0b66e81c171",
     "302004e4-ae6d-4e5e-8f95-1846df141292",
+    "94cf2551-cc1a-4dba-b895-e0b66e81c171",
     "35a25ba5-5b97-4960-a411-fe642dd653c9",
     "1630054140e5357498"
   ]
