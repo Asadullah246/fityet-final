@@ -1509,7 +1509,7 @@
           "header_sticky": true,
           "header_type": "1",
           "header_absolute": false,
-          "bg_headermain": "#cdf1e8",
+          "bg_headermain": "#f63c25",
           "inverted_headermain": true,
           "bg_ms_h": "#333333",
           "inverted_ms_h": false,
