@@ -24,11 +24,23 @@
             "caption_bg_color_opacity": 0,
             "custom_collection_class": ""
           }
+        },
+        "855ca330-3e3d-4c62-a392-704c4ec73f67": {
+          "type": "featured_collection",
+          "settings": {
+            "item_collection": "featured-products",
+            "column_item": "4",
+            "position-caption": "bottom",
+            "caption_bg_color": "#ffffff",
+            "caption_bg_color_opacity": 0,
+            "custom_collection_class": ""
+          }
         }
       },
       "block_order": [
         "template--18069637726482__b6d233a0-00f1-4297-8045-3956d7dbcf11-1677753581584cbb6c-0",
-        "template--18069637726482__b6d233a0-00f1-4297-8045-3956d7dbcf11-1677753581584cbb6c-1"
+        "template--18069637726482__b6d233a0-00f1-4297-8045-3956d7dbcf11-1677753581584cbb6c-1",
+        "855ca330-3e3d-4c62-a392-704c4ec73f67"
       ],
       "settings": {
         "container_width": "container",
