@@ -825,17 +825,17 @@
       ],
       "settings": {
         "container_width": "container",
-        "reset_indent": false,
+        "reset_indent": true,
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "0px 0px 0px 0px",
         "bg_section": "#ffffff",
         "section_title": "FITNESS SHOP",
         "image_size": "large",
         "img_alignment": "center",
-        "mh_item": 30,
-        "show_carousel": true,
-        "off_carousel_nav": true,
-        "off_carousel_pag": true,
+        "mh_item": 190,
+        "show_carousel": false,
+        "off_carousel_nav": false,
+        "off_carousel_pag": false,
         "carousel_control_type": "pagination"
       }
     }
