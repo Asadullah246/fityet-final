@@ -770,70 +770,6 @@
         "caption_animation": "none"
       }
     },
-    "302004e4-ae6d-4e5e-8f95-1846df141292": {
-      "type": "index-logo-list",
-      "blocks": {
-        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-0": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/shop-2.png",
-            "link": "shopify:\/\/products\/red-plaid-men-s-bomber-jacket-1433329109"
-          }
-        },
-        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-4": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/shop-1.png",
-            "link": "shopify:\/\/products\/smart-counting-skipping-rope-with-calorie-counting-cordless-mode-sp-898459405"
-          }
-        },
-        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-5": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/shop-3.png",
-            "link": "shopify:\/\/products\/beer-unisex-t-shirt-1053102715"
-          }
-        }
-      },
-      "block_order": [
-        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-0",
-        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-4",
-        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-5"
-      ],
-      "settings": {
-        "container_width": "container",
-        "reset_indent": false,
-        "inset_section": "0px 0px 0px 0px",
-        "offset_section": "0px 0px 0px 0px",
-        "bg_section": "#ffffff",
-        "section_title": "FITNESS SHOP",
-        "image_size": "large",
-        "img_alignment": "center",
-        "mh_item": 30,
-        "show_carousel": false,
-        "off_carousel_nav": false,
-        "off_carousel_pag": false,
-        "carousel_control_type": "pagination"
-      }
-    },
-    "1630054140e5357498": {
-      "type": "index-divider",
-      "settings": {
-        "section_view": "container",
-        "type_value": "vw",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_vw": 5.3,
-        "padding_bottom_vw": 4.5,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "background_color": "",
-        "tablet_padding_top": 20,
-        "tablet_padding_bottom": 20,
-        "tablet_margin_top": 0,
-        "tablet_margin_bottom": 0
-      }
-    },
     "8eca665b-66d2-4c9f-8997-1001cb1ae99f": {
       "type": "index-lookbook",
       "blocks": {
@@ -935,9 +871,74 @@
         "reset_indent": false,
         "section_title": "",
         "text_title": "",
+        "inset_section": "10px 10px 10px 10px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ff4a00"
+      }
+    },
+    "302004e4-ae6d-4e5e-8f95-1846df141292": {
+      "type": "index-logo-list",
+      "disabled": true,
+      "blocks": {
+        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop-2.png",
+            "link": "shopify:\/\/products\/red-plaid-men-s-bomber-jacket-1433329109"
+          }
+        },
+        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop-1.png",
+            "link": "shopify:\/\/products\/smart-counting-skipping-rope-with-calorie-counting-cordless-mode-sp-898459405"
+          }
+        },
+        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-5": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop-3.png",
+            "link": "shopify:\/\/products\/beer-unisex-t-shirt-1053102715"
+          }
+        }
+      },
+      "block_order": [
+        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-0",
+        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-4",
+        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-5"
+      ],
+      "settings": {
+        "container_width": "container",
+        "reset_indent": false,
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "0px 0px 0px 0px",
-        "bg_section": "#ffffff"
+        "bg_section": "#ffffff",
+        "section_title": "FITNESS SHOP",
+        "image_size": "large",
+        "img_alignment": "center",
+        "mh_item": 30,
+        "show_carousel": false,
+        "off_carousel_nav": false,
+        "off_carousel_pag": false,
+        "carousel_control_type": "pagination"
+      }
+    },
+    "1630054140e5357498": {
+      "type": "index-divider",
+      "settings": {
+        "section_view": "container",
+        "type_value": "vw",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_vw": 5.3,
+        "padding_bottom_vw": 4.5,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "background_color": "",
+        "tablet_padding_top": 20,
+        "tablet_padding_bottom": 20,
+        "tablet_margin_top": 0,
+        "tablet_margin_bottom": 0
       }
     }
   },
@@ -957,8 +958,8 @@
     "874a897b-5c48-41e0-a513-6a81e20836a8",
     "94cf2551-cc1a-4dba-b895-e0b66e81c171",
     "35a25ba5-5b97-4960-a411-fe642dd653c9",
+    "8eca665b-66d2-4c9f-8997-1001cb1ae99f",
     "302004e4-ae6d-4e5e-8f95-1846df141292",
-    "1630054140e5357498",
-    "8eca665b-66d2-4c9f-8997-1001cb1ae99f"
+    "1630054140e5357498"
   ]
 }
