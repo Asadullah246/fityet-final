@@ -767,41 +767,6 @@
         "caption_animation": "none"
       }
     },
-    "b96d42bd-f1d8-4414-9c9d-73f6b6c38484": {
-      "type": "index-featured-products",
-      "blocks": {
-        "2f8f73ee-22be-433a-b000-9915008d088d": {
-          "type": "collection_tab",
-          "settings": {
-            "section_title": "",
-            "block_collection_title": "",
-            "block_collection": "new-arrivals"
-          }
-        }
-      },
-      "block_order": [
-        "2f8f73ee-22be-433a-b000-9915008d088d"
-      ],
-      "settings": {
-        "section_title": "WORK OUT EQUIPMENT",
-        "section_subtitle": "",
-        "container_width": "container",
-        "bg_section": "#ffffff",
-        "inset_section": "0px 0px 0px 0px",
-        "offset_section": "0px 0px 0px 0px",
-        "reset_indent": true,
-        "use_tabs": true,
-        "all_view": false,
-        "products_count": "4",
-        "column_item": "25%",
-        "carousel_view": false,
-        "products_view": "4",
-        "off_carousel_nav": true,
-        "off_carousel_pag": true,
-        "carousel_control_type": "pagination",
-        "design_type": "type_3"
-      }
-    },
     "1630054140e5357498": {
       "type": "index-divider",
       "settings": {
@@ -837,7 +802,6 @@
     "874a897b-5c48-41e0-a513-6a81e20836a8",
     "94cf2551-cc1a-4dba-b895-e0b66e81c171",
     "35a25ba5-5b97-4960-a411-fe642dd653c9",
-    "b96d42bd-f1d8-4414-9c9d-73f6b6c38484",
     "1630054140e5357498"
   ]
 }
