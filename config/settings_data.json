@@ -1449,10 +1449,22 @@
               "bg_color": "#f63c25",
               "custom_item_class": ""
             }
+          },
+          "00e60213-b8e4-4f07-be43-e2513e195b02": {
+            "type": "link-simple",
+            "settings": {
+              "title": "Accessories",
+              "link": "shopify:\/\/collections\/accessories",
+              "badge_text": "",
+              "badge_color": "#121212",
+              "bg_color": "#1C54E2",
+              "custom_item_class": ""
+            }
           }
         },
         "block_order": [
-          "244cce6d-7668-4795-ba06-8dbaeb49f5e7"
+          "244cce6d-7668-4795-ba06-8dbaeb49f5e7",
+          "00e60213-b8e4-4f07-be43-e2513e195b02"
         ],
         "settings": {
           "headermaxwidth": 1590,
