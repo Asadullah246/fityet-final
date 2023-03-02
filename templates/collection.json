@@ -3,7 +3,7 @@
     "template-collection": {
       "type": "template-collection",
       "settings": {
-        "sidebar_collection_toggle": true,
+        "sidebar_collection_toggle": false,
         "sidebar_collection_position": "sidebar_left",
         "enable_filter_column": false,
         "enable_filtering": true,
