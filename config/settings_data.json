@@ -536,8 +536,8 @@
           "footer_logo_type": "img",
           "footer_logo_slogan": "<p><strong>ABOUT OUR COMPANY<\/strong><\/p><p><strong>FIT YET STORE<\/strong><\/p><p>Are you looking for best-looking fitness clothing, most comfortable footwear, finest accessories and first-class nutrition and equipment?  Why wait!!! Everything mentioned above and even more, you will find in this online store. <\/p>",
           "contacts": true,
-          "phone": "",
-          "phone_text": "",
+          "phone": "9205122105",
+          "phone_text": "9205122105",
           "email": "fityet.store@gmail.com",
           "email_text": "Send us an email",
           "powered_toggle": true,
@@ -1470,7 +1470,7 @@
               "links": "3-types",
               "badge_text": "",
               "badge_color": "#121212",
-              "bg_color": "#394CB3",
+              "bg_color": "#394cb3",
               "custom_item_class": ""
             }
           },
@@ -1482,7 +1482,7 @@
               "links": "others",
               "badge_text": "",
               "badge_color": "#121212",
-              "bg_color": "#394CB3",
+              "bg_color": "#394cb3",
               "custom_item_class": ""
             }
           }
