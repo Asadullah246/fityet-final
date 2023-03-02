@@ -4,7 +4,7 @@
       "type": "template-cart",
       "settings": {
         "show_promofield": true,
-        "show_policy": false,
+        "show_policy": true,
         "security_page": "shopify:\/\/policies\/terms-of-service",
         "security_text": "Security policy",
         "delivery_page": "shopify:\/\/policies\/privacy-policy",
