@@ -833,6 +833,112 @@
         "tablet_margin_top": 0,
         "tablet_margin_bottom": 0
       }
+    },
+    "8eca665b-66d2-4c9f-8997-1001cb1ae99f": {
+      "type": "index-lookbook",
+      "blocks": {
+        "template--18069642248466__8eca665b-66d2-4c9f-8997-1001cb1ae99f-1677785923fa3ae78d-0": {
+          "type": "lookbook",
+          "settings": {
+            "image_column": "4",
+            "offset_block_top": "0",
+            "image": "shopify:\/\/shop_images\/shop-2.png",
+            "captionTitle": "",
+            "item_product_1": "exercise-resistance-band-yoga-stick-pilates-stick-portable-fitness-sp-981791439",
+            "item_x_1": 50,
+            "item_y_1": 50,
+            "item_horizontal_align_1": "left",
+            "item_vertical_align_1": "bottom",
+            "item_product_2": "",
+            "item_x_2": 50,
+            "item_y_2": 50,
+            "item_horizontal_align_2": "left",
+            "item_vertical_align_2": "bottom",
+            "item_product_3": "",
+            "item_x_3": 50,
+            "item_y_3": 50,
+            "item_horizontal_align_3": "left",
+            "item_vertical_align_3": "bottom",
+            "item_product_4": "",
+            "item_x_4": 50,
+            "item_y_4": 50,
+            "item_horizontal_align_4": "left",
+            "item_vertical_align_4": "bottom"
+          }
+        },
+        "template--18069642248466__8eca665b-66d2-4c9f-8997-1001cb1ae99f-1677785923fa3ae78d-1": {
+          "type": "lookbook",
+          "settings": {
+            "image_column": "4",
+            "offset_block_top": "0",
+            "image": "shopify:\/\/shop_images\/shop-1.png",
+            "captionTitle": "",
+            "item_product_1": "all-seasons-yoga-shorts-stretchable-with-phone-pocket-526469692",
+            "item_x_1": 50,
+            "item_y_1": 50,
+            "item_horizontal_align_1": "left",
+            "item_vertical_align_1": "bottom",
+            "item_product_2": "",
+            "item_x_2": 50,
+            "item_y_2": 50,
+            "item_horizontal_align_2": "left",
+            "item_vertical_align_2": "bottom",
+            "item_product_3": "",
+            "item_x_3": 50,
+            "item_y_3": 50,
+            "item_horizontal_align_3": "left",
+            "item_vertical_align_3": "bottom",
+            "item_product_4": "",
+            "item_x_4": 50,
+            "item_y_4": 50,
+            "item_horizontal_align_4": "left",
+            "item_vertical_align_4": "bottom"
+          }
+        },
+        "c948d7fd-94ce-4369-805b-81ec43d34850": {
+          "type": "lookbook",
+          "settings": {
+            "image_column": "4",
+            "offset_block_top": "0",
+            "image": "shopify:\/\/shop_images\/shop-3.png",
+            "captionTitle": "",
+            "item_product_1": "",
+            "item_x_1": 50,
+            "item_y_1": 50,
+            "item_horizontal_align_1": "left",
+            "item_vertical_align_1": "bottom",
+            "item_product_2": "",
+            "item_x_2": 50,
+            "item_y_2": 50,
+            "item_horizontal_align_2": "left",
+            "item_vertical_align_2": "bottom",
+            "item_product_3": "drinco®-18oz-stainless-steel-sport-water-bottle-macaron-1298437526",
+            "item_x_3": 50,
+            "item_y_3": 50,
+            "item_horizontal_align_3": "left",
+            "item_vertical_align_3": "bottom",
+            "item_product_4": "",
+            "item_x_4": 50,
+            "item_y_4": 50,
+            "item_horizontal_align_4": "left",
+            "item_vertical_align_4": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "template--18069642248466__8eca665b-66d2-4c9f-8997-1001cb1ae99f-1677785923fa3ae78d-0",
+        "template--18069642248466__8eca665b-66d2-4c9f-8997-1001cb1ae99f-1677785923fa3ae78d-1",
+        "c948d7fd-94ce-4369-805b-81ec43d34850"
+      ],
+      "settings": {
+        "container_width": "container",
+        "reset_indent": false,
+        "section_title": "",
+        "text_title": "",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ffffff"
+      }
     }
   },
   "order": [
@@ -852,6 +958,7 @@
     "94cf2551-cc1a-4dba-b895-e0b66e81c171",
     "35a25ba5-5b97-4960-a411-fe642dd653c9",
     "302004e4-ae6d-4e5e-8f95-1846df141292",
-    "1630054140e5357498"
+    "1630054140e5357498",
+    "8eca665b-66d2-4c9f-8997-1001cb1ae99f"
   ]
 }
