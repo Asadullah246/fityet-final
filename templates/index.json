@@ -618,7 +618,7 @@
         "0c234543-588c-406c-a729-ec864e09aa84"
       ],
       "settings": {
-        "section_title": "Fitness Clothing",
+        "section_title": "FITNEDSS CLOTING",
         "section_subtitle": "",
         "container_width": "container",
         "bg_section": "#ffffff",
@@ -645,7 +645,7 @@
           "settings": {
             "section_title": "",
             "block_collection_title": "",
-            "block_collection": "featured-products"
+            "block_collection": "weightlifting"
           }
         }
       },
@@ -653,7 +653,7 @@
         "d7d2f098-d2f1-427a-b458-91656fd7df7e"
       ],
       "settings": {
-        "section_title": "FEATURED PRODUCTS",
+        "section_title": "WORK OUT EQUIPMENT",
         "section_subtitle": "",
         "container_width": "container",
         "bg_section": "#ffffff",
