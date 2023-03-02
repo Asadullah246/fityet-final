@@ -1473,14 +1473,15 @@
               "custom_item_class": ""
             }
           },
-          "665ddad7-d7ec-45bc-a6b3-f0b99bf1c190": {
-            "type": "link-simple",
+          "c3596f34-d4fa-4942-9008-73ddb54139c9": {
+            "type": "link-linklist",
             "settings": {
               "title": "New Arrival",
-              "link": "shopify:\/\/collections\/supplements-and-vitamins",
+              "link": "",
+              "links": "3-types",
               "badge_text": "",
               "badge_color": "#121212",
-              "bg_color": "#1c54e2",
+              "bg_color": "#394CB3",
               "custom_item_class": ""
             }
           },
@@ -1501,7 +1502,7 @@
           "244cce6d-7668-4795-ba06-8dbaeb49f5e7",
           "00e60213-b8e4-4f07-be43-e2513e195b02",
           "d34ca0c3-327a-4196-acb7-8bdd25517eaf",
-          "665ddad7-d7ec-45bc-a6b3-f0b99bf1c190",
+          "c3596f34-d4fa-4942-9008-73ddb54139c9",
           "7f51d47e-c2c3-4c21-873d-0841c1e54f80"
         ],
         "settings": {
