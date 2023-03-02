@@ -668,8 +668,8 @@
         "products_view": "4",
         "off_carousel_nav": true,
         "off_carousel_pag": true,
-        "carousel_control_type": "pagination",
-        "design_type": "type_1"
+        "carousel_control_type": "fraction",
+        "design_type": "type_2"
       }
     },
     "1630054140e5357498": {
