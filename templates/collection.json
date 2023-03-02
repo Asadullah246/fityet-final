@@ -19,7 +19,7 @@
         "sidebar_collection_position": "sidebar_left",
         "enable_filter_column": true,
         "enable_filtering": false,
-        "enable_sorting": false,
+        "enable_sorting": true,
         "enable_viewing": true,
         "collapse_on_larger_devices": false,
         "side_collapse_filter": "right",
