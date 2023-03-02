@@ -11,7 +11,7 @@
             "position-caption": "bottom",
             "caption_bg_color": "#ffffff",
             "caption_bg_color_opacity": 0,
-            "custom_collection_class": ""
+            "custom_collection_class": "{backround-color: red}"
           }
         },
         "template--18069637726482__00fe86a2-0a94-4599-bed6-1cc5a65f5ab3-16777754067b9d1724-1": {
