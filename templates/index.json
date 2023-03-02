@@ -582,6 +582,9 @@
       "block_order": [
         "164146180985472fc0-0"
       ],
+      "custom_css": [
+        "{width: 60vw; margin: auto;}"
+      ],
       "settings": {
         "section_title": "FEATURED PRODUCTS",
         "section_subtitle": "",
