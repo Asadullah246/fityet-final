@@ -1508,7 +1508,7 @@
           "htheight": 75,
           "header_sticky": true,
           "header_type": "1",
-          "header_absolute": false,
+          "header_absolute": true,
           "bg_headermain": "#ffffff",
           "inverted_headermain": false,
           "bg_ms_h": "#ffffff",
