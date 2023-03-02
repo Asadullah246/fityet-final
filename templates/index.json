@@ -582,6 +582,9 @@
       "block_order": [
         "164146180985472fc0-0"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "section_title": "FEATURED PRODUCTS",
         "section_subtitle": "",
@@ -602,40 +605,322 @@
         "design_type": "type_1"
       }
     },
-    "16279000732d0d0a44": {
-      "type": "index-divider",
+    "874a897b-5c48-41e0-a513-6a81e20836a8": {
+      "type": "index-featured-products",
+      "blocks": {
+        "0c234543-588c-406c-a729-ec864e09aa84": {
+          "type": "collection_tab",
+          "settings": {
+            "section_title": "",
+            "block_collection_title": "",
+            "block_collection": "fitness-gear"
+          }
+        }
+      },
+      "block_order": [
+        "0c234543-588c-406c-a729-ec864e09aa84"
+      ],
       "settings": {
-        "section_view": "container",
-        "type_value": "vw",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_vw": 1.9,
-        "padding_bottom_vw": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "background_color": "",
-        "tablet_padding_top": 30,
-        "tablet_padding_bottom": 30,
-        "tablet_margin_top": 0,
-        "tablet_margin_bottom": 0
+        "section_title": "FITNESS CLOTING",
+        "section_subtitle": "",
+        "container_width": "container",
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "reset_indent": false,
+        "use_tabs": false,
+        "all_view": false,
+        "products_count": "4",
+        "column_item": "25%",
+        "carousel_view": false,
+        "products_view": "4",
+        "off_carousel_nav": true,
+        "off_carousel_pag": true,
+        "carousel_control_type": "pagination",
+        "design_type": "type_1"
       }
     },
-    "16279001246ad508f4": {
-      "type": "index-divider",
+    "94cf2551-cc1a-4dba-b895-e0b66e81c171": {
+      "type": "index-featured-products",
+      "blocks": {
+        "d7d2f098-d2f1-427a-b458-91656fd7df7e": {
+          "type": "collection_tab",
+          "settings": {
+            "section_title": "",
+            "block_collection_title": "",
+            "block_collection": "featured-products"
+          }
+        }
+      },
+      "block_order": [
+        "d7d2f098-d2f1-427a-b458-91656fd7df7e"
+      ],
       "settings": {
-        "section_view": "container",
-        "type_value": "vw",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_vw": 4.1,
-        "padding_bottom_vw": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "background_color": "",
-        "tablet_padding_top": 30,
-        "tablet_padding_bottom": 30,
-        "tablet_margin_top": 0,
-        "tablet_margin_bottom": 0
+        "section_title": "WORK OUT EQUIPMENT",
+        "section_subtitle": "",
+        "container_width": "container",
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "reset_indent": false,
+        "use_tabs": false,
+        "all_view": false,
+        "products_count": "4",
+        "column_item": "25%",
+        "carousel_view": false,
+        "products_view": "4",
+        "off_carousel_nav": true,
+        "off_carousel_pag": true,
+        "carousel_control_type": "fraction",
+        "design_type": "type_2"
+      }
+    },
+    "35a25ba5-5b97-4960-a411-fe642dd653c9": {
+      "type": "index-image-with-text-overlay",
+      "disabled": true,
+      "blocks": {
+        "template--18069642248466__35a25ba5-5b97-4960-a411-fe642dd653c9-167778158624373037-0": {
+          "type": "heading_h6",
+          "disabled": true,
+          "settings": {
+            "heading_h6": "<h3>MULTI VITAMINS<\/h3>",
+            "h6_font_weight": "400",
+            "color": "#121212",
+            "inset_block": "0 0 0 0",
+            "offset_block": "5% 0 0 0",
+            "use_bgi": false,
+            "bgc_color": "",
+            "bgc_color_opacity": 0.5,
+            "title_animation": "none"
+          }
+        },
+        "template--18069642248466__35a25ba5-5b97-4960-a411-fe642dd653c9-167778158624373037-1": {
+          "type": "heading_h3",
+          "settings": {
+            "heading_h3": "<p>Heading<\/p>",
+            "color": "#121212",
+            "indent_block": "0",
+            "inset_block": "0 0 0 0",
+            "offset_block": "40% 0 0 0",
+            "use_bgi": false,
+            "bgc_color": "",
+            "bgc_color_opacity": 0.5,
+            "title_animation": "none"
+          }
+        },
+        "template--18069642248466__35a25ba5-5b97-4960-a411-fe642dd653c9-167778158624373037-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<p>",
+            "text_size": "medium",
+            "color": "#797b7e",
+            "inset_block": "0 0 0 0",
+            "offset_block": "5% 0 0 0",
+            "use_bgc": false,
+            "bgc_color": "",
+            "bgc_color_opacity": 0.5,
+            "title_animation": "none"
+          }
+        },
+        "template--18069642248466__35a25ba5-5b97-4960-a411-fe642dd653c9-167778158624373037-3": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY NOW",
+            "button_link": "shopify:\/\/products\/18-24knots-adjustable-exercise-hoop-smart-exercise-hoop-weight-loss-503937074",
+            "use_button": true,
+            "btn_style": "btn-primary",
+            "btn_size": "btn-sm",
+            "offset_block": "40% 0% 0% 0%"
+          }
+        }
+      },
+      "block_order": [
+        "template--18069642248466__35a25ba5-5b97-4960-a411-fe642dd653c9-167778158624373037-0",
+        "template--18069642248466__35a25ba5-5b97-4960-a411-fe642dd653c9-167778158624373037-1",
+        "template--18069642248466__35a25ba5-5b97-4960-a411-fe642dd653c9-167778158624373037-2",
+        "template--18069642248466__35a25ba5-5b97-4960-a411-fe642dd653c9-167778158624373037-3"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "container_width": "container",
+        "inset_section": "0 0 0 0",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ffffff",
+        "padding_desktop": 300,
+        "padding_mobile": 175,
+        "image": "shopify:\/\/shop_images\/retail-shopping-package.jpg",
+        "bg_pos_mobile": 50,
+        "use_bgo": false,
+        "bg_color": "",
+        "bg_color_opacity": 0.5,
+        "parallax": false,
+        "padding_parallax_desktop": 500,
+        "bg_animation": "none",
+        "caption_align": "center",
+        "text_align": "center",
+        "inverted": false,
+        "use_bgc": false,
+        "caption_bg_color": "",
+        "caption_bg_color_opacity": 0.5,
+        "inset_caption": "6% 7% 6% 7%",
+        "offset_caption": "10 0 0 0",
+        "caption_animation": "none"
+      }
+    },
+    "8eca665b-66d2-4c9f-8997-1001cb1ae99f": {
+      "type": "index-lookbook",
+      "blocks": {
+        "template--18069642248466__8eca665b-66d2-4c9f-8997-1001cb1ae99f-1677785923fa3ae78d-0": {
+          "type": "lookbook",
+          "settings": {
+            "image_column": "2",
+            "offset_block_top": "0",
+            "image": "shopify:\/\/shop_images\/shop-2.png",
+            "captionTitle": "",
+            "item_product_1": "exercise-resistance-band-yoga-stick-pilates-stick-portable-fitness-sp-981791439",
+            "item_x_1": 50,
+            "item_y_1": 50,
+            "item_horizontal_align_1": "left",
+            "item_vertical_align_1": "bottom",
+            "item_product_2": "red-plaid-men-s-bomber-jacket-1433329109",
+            "item_x_2": 80,
+            "item_y_2": 25,
+            "item_horizontal_align_2": "left",
+            "item_vertical_align_2": "bottom",
+            "item_product_3": "magic-body-amino-watermelon-187531948",
+            "item_x_3": 23,
+            "item_y_3": 23,
+            "item_horizontal_align_3": "left",
+            "item_vertical_align_3": "bottom",
+            "item_product_4": "",
+            "item_x_4": 50,
+            "item_y_4": 50,
+            "item_horizontal_align_4": "left",
+            "item_vertical_align_4": "bottom"
+          }
+        },
+        "template--18069642248466__8eca665b-66d2-4c9f-8997-1001cb1ae99f-1677785923fa3ae78d-1": {
+          "type": "lookbook",
+          "settings": {
+            "image_column": "2",
+            "offset_block_top": "10",
+            "image": "shopify:\/\/shop_images\/shop-1.png",
+            "captionTitle": "",
+            "item_product_1": "all-seasons-yoga-shorts-stretchable-with-phone-pocket-526469692",
+            "item_x_1": 50,
+            "item_y_1": 50,
+            "item_horizontal_align_1": "left",
+            "item_vertical_align_1": "bottom",
+            "item_product_2": "fbj2-jcne2315-id-38893-1265623926",
+            "item_x_2": 38,
+            "item_y_2": 20,
+            "item_horizontal_align_2": "left",
+            "item_vertical_align_2": "top",
+            "item_product_3": "mermaid-womens-one-piece-swimsuit-1231127070",
+            "item_x_3": 9,
+            "item_y_3": 50,
+            "item_horizontal_align_3": "right",
+            "item_vertical_align_3": "top",
+            "item_product_4": "gym-multifunctional-fitness-equipment-squat-rack-weightlifting-bench-52743100",
+            "item_x_4": 65,
+            "item_y_4": 81,
+            "item_horizontal_align_4": "left",
+            "item_vertical_align_4": "bottom"
+          }
+        },
+        "c948d7fd-94ce-4369-805b-81ec43d34850": {
+          "type": "lookbook",
+          "settings": {
+            "image_column": "2",
+            "offset_block_top": "10",
+            "image": "shopify:\/\/shop_images\/shop-3.png",
+            "captionTitle": "",
+            "item_product_1": "breathable-body-shaper-belts-746808618",
+            "item_x_1": 43,
+            "item_y_1": 11,
+            "item_horizontal_align_1": "right",
+            "item_vertical_align_1": "bottom",
+            "item_product_2": "bba2-bbabset30102x-q-id-40204a-1357189605",
+            "item_x_2": 50,
+            "item_y_2": 75,
+            "item_horizontal_align_2": "right",
+            "item_vertical_align_2": "top",
+            "item_product_3": "drinco®-18oz-stainless-steel-sport-water-bottle-macaron-1298437526",
+            "item_x_3": 13,
+            "item_y_3": 50,
+            "item_horizontal_align_3": "left",
+            "item_vertical_align_3": "bottom",
+            "item_product_4": "chillax-muscle-recovery-gel-1085118917",
+            "item_x_4": 82,
+            "item_y_4": 50,
+            "item_horizontal_align_4": "right",
+            "item_vertical_align_4": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "template--18069642248466__8eca665b-66d2-4c9f-8997-1001cb1ae99f-1677785923fa3ae78d-0",
+        "template--18069642248466__8eca665b-66d2-4c9f-8997-1001cb1ae99f-1677785923fa3ae78d-1",
+        "c948d7fd-94ce-4369-805b-81ec43d34850"
+      ],
+      "settings": {
+        "container_width": "container",
+        "reset_indent": false,
+        "section_title": "FITNESS SHOP",
+        "text_title": "World is committed to making participation in the event a harassment free experience for everyone, regardless of level of experience.",
+        "inset_section": "10px 10px 10px 10px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ff4a00"
+      }
+    },
+    "302004e4-ae6d-4e5e-8f95-1846df141292": {
+      "type": "index-logo-list",
+      "disabled": true,
+      "blocks": {
+        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop-2.png",
+            "link": "shopify:\/\/products\/red-plaid-men-s-bomber-jacket-1433329109"
+          }
+        },
+        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop-1.png",
+            "link": "shopify:\/\/products\/smart-counting-skipping-rope-with-calorie-counting-cordless-mode-sp-898459405"
+          }
+        },
+        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-5": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop-3.png",
+            "link": "shopify:\/\/products\/beer-unisex-t-shirt-1053102715"
+          }
+        }
+      },
+      "block_order": [
+        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-0",
+        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-4",
+        "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-5"
+      ],
+      "settings": {
+        "container_width": "container",
+        "reset_indent": false,
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "bg_section": "#ffffff",
+        "section_title": "FITNESS SHOP",
+        "image_size": "large",
+        "img_alignment": "center",
+        "mh_item": 30,
+        "show_carousel": false,
+        "off_carousel_nav": false,
+        "off_carousel_pag": false,
+        "carousel_control_type": "pagination"
       }
     },
     "1630054140e5357498": {
@@ -645,7 +930,7 @@
         "type_value": "vw",
         "padding_top": 0,
         "padding_bottom": 0,
-        "padding_top_vw": 4.5,
+        "padding_top_vw": 5.3,
         "padding_bottom_vw": 4.5,
         "margin_top": 0,
         "margin_bottom": 0,
@@ -670,8 +955,11 @@
     "16414608074ede0d57",
     "1627900045d25f9b47",
     "1641461809a3f9d929",
-    "16279000732d0d0a44",
-    "16279001246ad508f4",
+    "874a897b-5c48-41e0-a513-6a81e20836a8",
+    "94cf2551-cc1a-4dba-b895-e0b66e81c171",
+    "35a25ba5-5b97-4960-a411-fe642dd653c9",
+    "8eca665b-66d2-4c9f-8997-1001cb1ae99f",
+    "302004e4-ae6d-4e5e-8f95-1846df141292",
     "1630054140e5357498"
   ]
 }
