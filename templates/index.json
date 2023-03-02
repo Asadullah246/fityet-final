@@ -602,40 +602,74 @@
         "design_type": "type_1"
       }
     },
-    "16279000732d0d0a44": {
-      "type": "index-divider",
+    "874a897b-5c48-41e0-a513-6a81e20836a8": {
+      "type": "index-featured-products",
+      "blocks": {
+        "0c234543-588c-406c-a729-ec864e09aa84": {
+          "type": "collection_tab",
+          "settings": {
+            "section_title": "",
+            "block_collection_title": "",
+            "block_collection": "fitness-gear"
+          }
+        }
+      },
+      "block_order": [
+        "0c234543-588c-406c-a729-ec864e09aa84"
+      ],
       "settings": {
-        "section_view": "container",
-        "type_value": "vw",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_vw": 1.9,
-        "padding_bottom_vw": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "background_color": "",
-        "tablet_padding_top": 30,
-        "tablet_padding_bottom": 30,
-        "tablet_margin_top": 0,
-        "tablet_margin_bottom": 0
+        "section_title": "Fitness Clothing",
+        "section_subtitle": "",
+        "container_width": "container",
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "reset_indent": false,
+        "use_tabs": false,
+        "all_view": false,
+        "products_count": "4",
+        "column_item": "25%",
+        "carousel_view": false,
+        "products_view": "4",
+        "off_carousel_nav": true,
+        "off_carousel_pag": true,
+        "carousel_control_type": "pagination",
+        "design_type": "type_1"
       }
     },
-    "16279001246ad508f4": {
-      "type": "index-divider",
+    "94cf2551-cc1a-4dba-b895-e0b66e81c171": {
+      "type": "index-featured-products",
+      "blocks": {
+        "d7d2f098-d2f1-427a-b458-91656fd7df7e": {
+          "type": "collection_tab",
+          "settings": {
+            "section_title": "",
+            "block_collection_title": "",
+            "block_collection": "featured-products"
+          }
+        }
+      },
+      "block_order": [
+        "d7d2f098-d2f1-427a-b458-91656fd7df7e"
+      ],
       "settings": {
-        "section_view": "container",
-        "type_value": "vw",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_vw": 4.1,
-        "padding_bottom_vw": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "background_color": "",
-        "tablet_padding_top": 30,
-        "tablet_padding_bottom": 30,
-        "tablet_margin_top": 0,
-        "tablet_margin_bottom": 0
+        "section_title": "FEATURED PRODUCTS",
+        "section_subtitle": "",
+        "container_width": "container",
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "reset_indent": false,
+        "use_tabs": false,
+        "all_view": false,
+        "products_count": "4",
+        "column_item": "25%",
+        "carousel_view": false,
+        "products_view": "4",
+        "off_carousel_nav": true,
+        "off_carousel_pag": true,
+        "carousel_control_type": "pagination",
+        "design_type": "type_1"
       }
     },
     "1630054140e5357498": {
@@ -645,7 +679,7 @@
         "type_value": "vw",
         "padding_top": 0,
         "padding_bottom": 0,
-        "padding_top_vw": 4.5,
+        "padding_top_vw": 5.3,
         "padding_bottom_vw": 4.5,
         "margin_top": 0,
         "margin_bottom": 0,
@@ -670,8 +704,8 @@
     "16414608074ede0d57",
     "1627900045d25f9b47",
     "1641461809a3f9d929",
-    "16279000732d0d0a44",
-    "16279001246ad508f4",
+    "874a897b-5c48-41e0-a513-6a81e20836a8",
+    "94cf2551-cc1a-4dba-b895-e0b66e81c171",
     "1630054140e5357498"
   ]
 }
