@@ -1485,15 +1485,15 @@
               "custom_item_class": ""
             }
           },
-          "7f51d47e-c2c3-4c21-873d-0841c1e54f80": {
+          "c680b9f5-1c6a-4e88-8a4b-7e74c4a3baac": {
             "type": "link-linklist",
             "settings": {
-              "title": "Others",
+              "title": "Othes",
               "link": "",
               "links": "others",
               "badge_text": "",
               "badge_color": "#121212",
-              "bg_color": "#394cb3",
+              "bg_color": "#394CB3",
               "custom_item_class": ""
             }
           }
@@ -1503,7 +1503,7 @@
           "00e60213-b8e4-4f07-be43-e2513e195b02",
           "d34ca0c3-327a-4196-acb7-8bdd25517eaf",
           "c3596f34-d4fa-4942-9008-73ddb54139c9",
-          "7f51d47e-c2c3-4c21-873d-0841c1e54f80"
+          "c680b9f5-1c6a-4e88-8a4b-7e74c4a3baac"
         ],
         "settings": {
           "headermaxwidth": 1140,
