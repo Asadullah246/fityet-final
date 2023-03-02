@@ -2,30 +2,30 @@
   <form action="/cart/add" method="post" enctype="multipart/form-data" data-section="{{ section.id }}">
     <div class="details_wrapper">
       <div class="flex-wrapper">
-        
+
         <p class="single_product__availability">
           <span id="single_product__availability-{{ section.id }}"></span>
         </p>
-        
-        
+
+
         {% if settings.product_reviews %}
           <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
         {% endif %}
       </div>
-      
-      
+
+
       <h2 itemprop="name" class="single_product__title mt-3 mb-0 h4">{{ product.title }}</h2>
-      
+
       <div id="single_product__price-{{ section.id }}" class="single_product__price">
         <span class="product-price money">{{ product.price | money }}</span>
       </div>
-      
+
       {% if settings.show_short_desc %}
         <p class="single_product__short_desc">
           {{ product.description | strip_html | truncate: 180 }}
         </p>
       {% endif %}
-  
+
       {% if settings.swatch_color %}
         {% if  product.available and product.variants.size > 1 %}
           {% if product.options.size > 0 %}
@@ -38,13 +38,13 @@
           {% endif %}
         {% endif %}
       {% endif %}
-   
-      
-      
+
+
+
       {% if settings.show_size_chart and pages.size-guide and pages.size-guide.content != '' %}
       <div class="flex-wrapper {% if product.options contains 'Size' and settings.show_size %} justify-content-between {% else %} justify-content-start {% endif %} mt-2 mt-md-3">
         {% endif %}
-  
+
         {% if settings.swatch_size %}
           {% if product.available and product.variants.size > 1 %}
             {% if product.options.size > 0 %}
@@ -57,8 +57,8 @@
              {% endif %}
           {% endif %}
         {% endif %}
-     
-        
+
+
         {% if settings.show_size_chart and pages.size-guide and pages.size-guide.content != '' %}
         <div class="product_sizechart">
           <div class="product_sizechart_toggle link">
@@ -67,14 +67,14 @@
             </svg>
             <span>{{ 'layout.product.size_chart' | t }}</span>
           </div>
-          
+
           <div id="size-chart">
             {{ pages.size-guide.content }}
           </div>
         </div>
       </div>
       {% endif %}
-      
+
       {% if settings.use_custom_all_options %}
         {% if product.available and product.variants.size > 1 %}
           {% for option in product.options %}
@@ -103,8 +103,8 @@
           }
         </script>
       {% endif %}
-  
-  
+
+
       <div class="single_product__options{% if product.variants.size == 1 and product.variants.first.title contains 'Default' %} d-none{% endif %}">
         <select name="id" id="product_select_{{ section.id }}" class="custom-select">
           {% for variant in product.variants %}
@@ -112,12 +112,14 @@
           {% endfor %}
         </select>
       </div>
-      
-      
+
+
       <div class="single_product__quantity">
-        
+
         <div class="product-add-to-cart-wrapper">
-          <label for="single_product__quantity-{{ section.id }}">{{ 'layout.product.quantity' | t }}: </label>
+         <div class="amountDiv">
+          {% comment %} <label for="single_product__quantity-{{ section.id }}">{{ 'layout.product.quantity' | t }}: </label> {% endcomment %}
+          <label for="single_product__quantity-{{ section.id }}">Quantity :</label>
           <div class="quantity_box">
             <input id="single_product__quantity-{{ section.id }}" class="form-control quantity_input" type="text" name="quantity" value="1">
             <div class="quantity_modifier quantity_up">
@@ -127,28 +129,37 @@
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.91699 6.41699H11.0837V7.58366H2.91699V6.41699Z" fill="#797B7E"/></svg>
             </div>
           </div>
-          <button type="submit" name="add" class="btn btn-primary btn-gradient btn-lg icon-svg mr-1 btn-add-to-cart w-100" aria-label="" id="single_product__addtocart-{{ section.id }}">
-           <span class="text-center">
-             <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7.05518 8V6C7.05518 4.67392 7.58169 3.40215 8.51888 2.46447C9.45608 1.52678 10.7272 1 12.0526 1C13.378 1 14.6491 1.52678 15.5863 2.46447C16.5235 3.40215 17.05 4.67392 17.05 6V8H20.0484C20.3135 8 20.5677 8.10536 20.7552 8.29289C20.9426 8.48043 21.0479 8.73478 21.0479 9V21C21.0479 21.2652 20.9426 21.5196 20.7552 21.7071C20.5677 21.8946 20.3135 22 20.0484 22H4.05673C3.79165 22 3.53743 21.8946 3.34999 21.7071C3.16255 21.5196 3.05725 21.2652 3.05725 21V9C3.05725 8.73478 3.16255 8.48043 3.34999 8.29289C3.53743 8.10536 3.79165 8 4.05673 8H7.05518ZM7.05518 10H5.05621V20H19.049V10H17.05V12H15.051V10H9.05414V12H7.05518V10ZM9.05414 8H15.051V6C15.051 5.20435 14.7351 4.44129 14.1728 3.87868C13.6105 3.31607 12.8478 3 12.0526 3C11.2573 3 10.4947 3.31607 9.93236 3.87868C9.37004 4.44129 9.05414 5.20435 9.05414 6V8Z" fill="#FFFFFF"/>
-            </svg>
-            {{ 'layout.product.add_to_cart' | t }}
-           </span>
-          </button>
-  
-          {% if settings.show_bit_button %}
-          <div class="buyoneclick  w-100 mt-2">
-            {% form  'product', product, id: "oldID", class: 'old-class' %}
-               {{ form | payment_button }}
-            {% endform %}
-            {% if current_variant.available == false %}<style>.shopify-payment-button{display:none}</style>{% endif %}
-          </div>
-          {% endif %}
+         </div>
+
+
+
         </div>
-        
+
+        <div class="buttons">
+          <button type="submit" name="add" class="btn btn-primary btn-gradient btn-lg icon-svg mr-1 btn-add-to-cart w-100" aria-label="" id="single_product__addtocart-{{ section.id }}">
+            <span class="text-center">
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M7.05518 8V6C7.05518 4.67392 7.58169 3.40215 8.51888 2.46447C9.45608 1.52678 10.7272 1 12.0526 1C13.378 1 14.6491 1.52678 15.5863 2.46447C16.5235 3.40215 17.05 4.67392 17.05 6V8H20.0484C20.3135 8 20.5677 8.10536 20.7552 8.29289C20.9426 8.48043 21.0479 8.73478 21.0479 9V21C21.0479 21.2652 20.9426 21.5196 20.7552 21.7071C20.5677 21.8946 20.3135 22 20.0484 22H4.05673C3.79165 22 3.53743 21.8946 3.34999 21.7071C3.16255 21.5196 3.05725 21.2652 3.05725 21V9C3.05725 8.73478 3.16255 8.48043 3.34999 8.29289C3.53743 8.10536 3.79165 8 4.05673 8H7.05518ZM7.05518 10H5.05621V20H19.049V10H17.05V12H15.051V10H9.05414V12H7.05518V10ZM9.05414 8H15.051V6C15.051 5.20435 14.7351 4.44129 14.1728 3.87868C13.6105 3.31607 12.8478 3 12.0526 3C11.2573 3 10.4947 3.31607 9.93236 3.87868C9.37004 4.44129 9.05414 5.20435 9.05414 6V8Z" fill="#FFFFFF"/>
+             </svg>
+             {{ 'layout.product.add_to_cart' | t }}
+            </span>
+           </button>
+           {% if settings.show_bit_button %}
+           <div class="buyoneclick  w-100 mt-2">
+             {% form  'product', product, id: "oldID", class: 'old-class' %}
+                {{ form | payment_button }}
+             {% endform %}
+             {% if current_variant.available == false %}<style>.shopify-payment-button{display:none}</style>{% endif %}
+           </div>
+           {% endif %}
+        </div>
+
+
+
+
 
       </div>
-      
+
       {% if shop.customer_accounts_enabled or settings.show_notify_button %}
         <div class="my-3 flex-wrapper">
           {% if shop.customer_accounts_enabled %}
@@ -186,7 +197,7 @@
               {% endif %}
             </div>
           {% endif %}
-          
+
           {% if settings.show_notify_button %}
             <span class="link notify_btn" id="notify_trigger_button">
 				<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -197,28 +208,28 @@
           {% endif %}
         </div>
       {% endif %}
-      
+
       <div class="single_product_list">
-        
+
         {% if settings.show_sku %}
           <p class="single_product__sku mr-2">
             <b>{{ 'layout.product.sku' | t }}:</b>
             <span id="single_product__sku-{{ section.id }}"></span>
           </p>
         {% endif %}
-        
-        
+
+
         {% if settings.show_vendor %}
           <p class="single_product__vendor">
             <b>{{ 'layout.product.vendor' | t }}:</b>
             <span>{{ product.vendor }}</span>
           </p>
         {% endif %}
-        
+
         {% if settings.show_product_types %}
           <p class="single_product__type">
             <b>{{ 'layout.product.product_type' | t }}:</b>
-            
+
             <span>
 			  {% if product.type.size > 0 %}
                  {{ product.type }}
@@ -228,21 +239,21 @@
             </span>
           </p>
         {% endif %}
-        
+
         {% if settings.show_barcode %}
           <p class="single_product__barcode">
             <b>{{ 'layout.product.barcode' | t }}:</b>
             <span id="single_product__barcode-{{ section.id }}"></span>
           </p>
         {% endif %}
-        
+
         {% if settings.show_weight %}
           <p class="single_product__weight">
             <b>{{ 'layout.product.weight' | t }}:</b>
             <span id="single_product__weight-{{ section.id }}"></span>
           </p>
         {% endif %}
-        
+
         {% if settings.show_tags %}
           <p class="single_product__tags">
             <b>{{ 'layout.product.tags' | t }}:</b>
@@ -253,7 +264,7 @@
             {% endif %}
           </p>
         {% endif %}
-        
+
         {% if settings.show_collections %}
           <p class="single_product__collections">
             <b>{{ 'layout.product.collections' | t }}:</b>
@@ -267,14 +278,14 @@
       </div>
     </div>
   </form>
-  
+
   {% if settings.show_notify_button %}
     <div id="product_notify" class="container container-sm">
       {% form 'contact', class: 'notify_form' %}
       {{ form.errors | default_errors }}
-      
+
       <p class="h5 text-center mb-2 mt-3">{{ 'layout.product.notify_text' | t }}</p>
-      
+
       <input type="hidden" name="contact[tags]" value="Notify product">
       <label for="product_notify_input" class="hidden">Body</label>
       <input id="product_notify_input" type="hidden" name="contact[product]" value="{{ shop.url }}{{ product.url }}">
@@ -283,11 +294,11 @@
         <textarea required name="contact[comment]" class="notify__input form-control" placeholder="Add your comment about the product of interest to you"></textarea>
         <button class="btn btn-primary btn-gradient w-100 mt-3" type="submit">{{ 'layout.product.notify_send' | t }}</button>
       </div>
-      
+
       {% endform %}
     </div>
   {% endif %}
-  
+
   {% if settings.show_share_buttons %}
     <div class="product-social-sharing mt-4">
       <div class="rte">
@@ -296,7 +307,7 @@
       </div>
     </div>
   {% endif %}
-  
+
   {% if settings.show_policy %}
     <div class="single_product__policy">
       {% if settings.delivery_page.size > 0 %}
