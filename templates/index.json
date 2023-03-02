@@ -828,7 +828,7 @@
         "reset_indent": true,
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "0px 0px 0px 0px",
-        "bg_section": "#ffffff",
+        "bg_section": "rgba(0,0,0,0)",
         "section_title": "FITNESS SHOP",
         "image_size": "large",
         "img_alignment": "center",
