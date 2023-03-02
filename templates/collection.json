@@ -68,7 +68,7 @@
         "show_items_count": true,
         "style": "type_h_2",
         "image_ratio": "square",
-        "img_alignment": "top",
+        "img_alignment": "center",
         "show_view_all": false,
         "show_carousel": true
       }
