@@ -9,10 +9,18 @@
             "title": "Filter",
             "widget_open_toggle": true
           }
+        },
+        "37b2a5cf-5c71-4f77-8aeb-333ac36e100d": {
+          "type": "widget_collections",
+          "settings": {
+            "title": "SIZE",
+            "widget_open_toggle": true
+          }
         }
       },
       "block_order": [
-        "5f429381-70ce-4bf4-99f2-d5275832d3c4"
+        "5f429381-70ce-4bf4-99f2-d5275832d3c4",
+        "37b2a5cf-5c71-4f77-8aeb-333ac36e100d"
       ],
       "settings": {
         "sidebar_collection_toggle": true,
@@ -24,10 +32,10 @@
         "collapse_on_larger_devices": false,
         "side_collapse_filter": "right",
         "type_price_range": "default",
-        "use_button_filter": false,
+        "use_button_filter": true,
         "round_color_pick": true,
         "items_per_page": "9",
-        "use_info": false,
+        "use_info": true,
         "container_width": "container",
         "bg_section": "rgba(0,0,0,0)",
         "inset_section": "0",
