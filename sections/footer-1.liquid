@@ -64,11 +64,14 @@
 					<p class="footerDesc">Are you looking for best-looking fitness clothing, most comfortable footwear, finest accessories and first-class nutrition and equipment? Why wait!!! Everything mentioned above and even more, you will find in this online store.</p>
 
 					<div class="location">
-						<img  src="/assets/location.png" alt="location">
+
+						<img  src="{{ 'location.png' | asset_url }}" alt="location">
 						<p>GymVast, 18 East 50th Street, 4th Floor, <br> New York, NY 10022</p>
 					</div>
 					<div class="phone">
-						<img  src="/assets/call.png" alt="phone">
+
+						<img  src="{{ 'call.png' | asset_url }}" alt="phone">
+
 						<p>65 094 778 622</p>
 					</div>
 				 {% comment %} {% assign logo_type = section.settings.footer_logo_type %}
@@ -87,7 +90,8 @@
 						{% if section.settings.email.size > 0 %}
 							<li>
 								<a id="sendEmail" class="contact_email" href="mailto:{{ section.settings.email }}">
-									<img src="/assets/emailLogo.png" alt="e" style="height: 20px; width:auto ; margin-right:8px;" srcset="">
+									
+									<img src="{{ 'emailLogo.png' | asset_url }}" alt="e" style="height: 20px; width:auto ; margin-right:8px;" srcset="">
 
 									<span>{{ section.settings.email_text }}<span class="d-none">{{ section.settings.email }}</span></span>
 								</a>
