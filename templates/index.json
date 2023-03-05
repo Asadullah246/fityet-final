@@ -772,6 +772,7 @@
     },
     "8eca665b-66d2-4c9f-8997-1001cb1ae99f": {
       "type": "index-lookbook",
+      "disabled": true,
       "blocks": {
         "template--18069642248466__8eca665b-66d2-4c9f-8997-1001cb1ae99f-1677785923fa3ae78d-0": {
           "type": "lookbook",
@@ -930,7 +931,7 @@
         "type_value": "vw",
         "padding_top": 0,
         "padding_bottom": 0,
-        "padding_top_vw": 5.3,
+        "padding_top_vw": 2.9,
         "padding_bottom_vw": 4.5,
         "margin_top": 0,
         "margin_bottom": 0,
