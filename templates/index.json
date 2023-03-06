@@ -971,8 +971,8 @@
         "column_item": "33%",
         "carousel_view": false,
         "products_view": "4",
-        "off_carousel_nav": false,
-        "off_carousel_pag": false,
+        "off_carousel_nav": true,
+        "off_carousel_pag": true,
         "carousel_control_type": "pagination",
         "design_type": "type_1"
       }
