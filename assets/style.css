@@ -979,6 +979,11 @@ border: none !important;
     margin-right: 0 !important;
 }
 
+#sendEmail > img{
+    width: 25px !important;
+    height: auto !important; 
+}
+
 /* footer media  */
 
 @media (min-width: 1200px){
