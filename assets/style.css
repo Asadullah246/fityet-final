@@ -947,7 +947,13 @@ border: none !important;
     margin-top: 20px !important;
 }
 #shopify-section-template--18057764241682__1641457524d64a966e > div > div > div.tab_content_wrapper > div.tab_navigation.row > div:nth-child(1) > h2, #shopify-section-template--18057764241682__1641461809a3f9d929 > div > div > h5, #shopify-section-template--18057764241682__874a897b-5c48-41e0-a513-6a81e20836a8 > div > div > h5, #shopify-section-template--18057764241682__94cf2551-cc1a-4dba-b895-e0b66e81c171 > div > div > h5, #shopify-section-template--18057764241682__c4f492f2-c444-4298-919f-bf7804fe67b7 > div > div > h5{
-    text-decoration: none; 
+    text-decoration: none;
+}
+.section_banners .h3.block-title:after {
+    background: white !important; 
+}
+#shopify-section-template--18057764241682__1641455547ad5693ee > div > div > div > div:nth-child(1) > div > div > div > div:after {
+    background: black !important;
 }
 
 /* footer media  */
