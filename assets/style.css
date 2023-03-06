@@ -217,13 +217,19 @@ padding-top: 30px !important;
 
 .caption-item p{
     font-weight: 600 !important;
-    font-family: 'Barlow', sans-serif !important;
+    /* font-family: 'Barlow', sans-serif !important; */
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
-    line-height: normal !important;
+    /* line-height: normal !important; */
+    /* letter-spacing: 1px !important;  */
     font-size: 1em !important;
     color: black;
 }
+.section_slideshow .h1.block-title p strong{
+    line-height: 4px; 
+}
+
+#slideshow_template--18057764241682__162766312376154f68 > div.swiper-wrapper > div.swiper-slide.image_slide.item-162766312376154f68-0.swiper-slide-active > div.row > div > div > div.h1.block-title > div > p:nth-child(1) > strong
 .caption-item h5{
     /* font-weight: 500 !important; */
     /* font-family: 'Barlow', sans-serif !important; */
@@ -981,7 +987,11 @@ border: none !important;
 
 #sendEmail > img{
     width: 25px !important;
-    height: auto !important; 
+    height: auto !important;
+}
+#shopify-section-template--18069637726482__00fe86a2-0a94-4599-bed6-1cc5a65f5ab3 > div > div > div > div.text-center.mb-4.col-12 > div > h2{
+    margin-bottom: 0 !important;
+    margin-top: 15px !important;
 }
 
 /* footer media  */
