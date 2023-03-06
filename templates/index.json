@@ -958,7 +958,7 @@
         "template--18069642248466__19a6da75-a73d-4421-9c79-2de814a1c774-16781005972dd9fbd5-0"
       ],
       "settings": {
-        "section_title": "Popular products",
+        "section_title": "Vitamins",
         "section_subtitle": "Top sale in this week",
         "container_width": "container",
         "bg_section": "#ffffff",
@@ -967,7 +967,7 @@
         "reset_indent": false,
         "use_tabs": false,
         "all_view": false,
-        "products_count": "8",
+        "products_count": "4",
         "column_item": "33%",
         "carousel_view": false,
         "products_view": "4",
