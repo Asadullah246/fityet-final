@@ -1,8 +1,8 @@
 body{
-    font-family: 'Barlow', sans-serif !important;
+
 }
 main{
-    font-family: 'Barlow', sans-serif !important;
+
 }
 
 /* navbar  */
@@ -19,12 +19,12 @@ main{
 }
 #megamenu_level__1 > li > a , #megamenu_level__1 > li > span {
     font-weight: 800 !important;
-    font-family: 'Barlow', sans-serif !important;
+
 
 }
 #menu_7f51d47e-c2c3-4c21-873d-0841c1e54f80 > li > a{
     font-weight: 800 !important;
-    font-family: 'Barlow', sans-serif !important;
+    /* font-family: 'Barlow', sans-serif !important; */
 }
 
 #megamenu_level__1 > li :hover{
@@ -855,9 +855,9 @@ footer .contact_list  {
 
 
 .container, .template-page .breadcrumbs>div, #size-chart, ul.megamenu>li.level_1__item .is-megamenu>li, .section_template__product #shopify-product-reviews .spr-container, .shipping-delivery-page, .page_container .shopify-policy__container, .container-xsm, .container-sm, .container-md, .container-lg, .container-xl{
-    max-width: 1140px !important;
+    max-width: 1200px !important;
     margin: 0 auto ;
-    width: 75% ;
+    width: 80% ;
 
 }
 
@@ -920,10 +920,20 @@ footer .contact_list  {
     color: #F63C25 !important;
 }
 #shopify-section-template--18069642248466__1641455547ad5693ee > div > div > div > div:nth-child(2) > div > div > div > div > div > p:nth-child(1) > strong{
-    color: #F63C25 !important; 
+    color: #F63C25 !important;
+}
+#shopify-section-template--18057764241682__164145554029689e88 > div > div > div > div:nth-child(2) > div > div > div.text-default.item-16414555396cb2c2dd-2 > div > p{
+    line-height: 27px  !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+#product__13-womens-legging-made-in-usa-123635085{
+    border: none !important;
 }
 
-
+.footer_type_1 .newsletter__input:focus{
+border: none !important;
+}
 /* footer media  */
 
 @media (min-width: 1200px){
@@ -932,7 +942,7 @@ footer .contact_list  {
         margin: 0 auto !important; */
     }
     .container, .template-page .breadcrumbs>div, #size-chart, ul.megamenu>li.level_1__item .is-megamenu>li, .section_template__product #shopify-product-reviews .spr-container, .shipping-delivery-page, .page_container .shopify-policy__container, .container-xsm, .container-sm, .container-md, .container-lg, .container-xl{
-        width: 75% ;
+        width: 80% ;
 
     }
 
