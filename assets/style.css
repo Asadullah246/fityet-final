@@ -861,6 +861,19 @@ footer .contact_list  {
 
 }
 
+#shopify-section-template--18057764241682__164145554029689e88 > div{
+    height: fit-content !important;
+}
+
+#shopify-section-template--18057764241682__164145554029689e88 > div > div > div > div{
+    width: 50% !important;
+}
+#shopify-section-template--18057764241682__164145554029689e88 > div > div > div > div >div > div >img{
+    width: 100!important;
+    height: auto !important;
+}
+
+
 /* footer media  */
 
 @media (min-width: 1200px){
