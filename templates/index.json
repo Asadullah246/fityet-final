@@ -924,6 +924,41 @@
         "carousel_control_type": "pagination"
       }
     },
+    "a9731e9a-74f5-4dfa-84fe-b6ef715a779a": {
+      "type": "index-featured-products",
+      "blocks": {
+        "template--18069642248466__a9731e9a-74f5-4dfa-84fe-b6ef715a779a-1678090160e4b4b56a-0": {
+          "type": "collection_tab",
+          "settings": {
+            "section_title": "",
+            "block_collection_title": "",
+            "block_collection": "new-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--18069642248466__a9731e9a-74f5-4dfa-84fe-b6ef715a779a-1678090160e4b4b56a-0"
+      ],
+      "settings": {
+        "section_title": "FITNESS SHOP",
+        "section_subtitle": "",
+        "container_width": "container",
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "reset_indent": false,
+        "use_tabs": false,
+        "all_view": false,
+        "products_count": "4",
+        "column_item": "33%",
+        "carousel_view": false,
+        "products_view": "4",
+        "off_carousel_nav": false,
+        "off_carousel_pag": false,
+        "carousel_control_type": "pagination",
+        "design_type": "type_1"
+      }
+    },
     "1630054140e5357498": {
       "type": "index-divider",
       "settings": {
@@ -961,6 +996,7 @@
     "35a25ba5-5b97-4960-a411-fe642dd653c9",
     "8eca665b-66d2-4c9f-8997-1001cb1ae99f",
     "302004e4-ae6d-4e5e-8f95-1846df141292",
+    "a9731e9a-74f5-4dfa-84fe-b6ef715a779a",
     "1630054140e5357498"
   ]
 }
