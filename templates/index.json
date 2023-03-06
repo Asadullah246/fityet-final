@@ -879,6 +879,7 @@
     },
     "302004e4-ae6d-4e5e-8f95-1846df141292": {
       "type": "index-logo-list",
+      "disabled": true,
       "blocks": {
         "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-0": {
           "type": "logo_image",
@@ -923,42 +924,6 @@
         "carousel_control_type": "pagination"
       }
     },
-    "a9731e9a-74f5-4dfa-84fe-b6ef715a779a": {
-      "type": "index-featured-products",
-      "disabled": true,
-      "blocks": {
-        "template--18069642248466__a9731e9a-74f5-4dfa-84fe-b6ef715a779a-1678090160e4b4b56a-0": {
-          "type": "collection_tab",
-          "settings": {
-            "section_title": "",
-            "block_collection_title": "",
-            "block_collection": "new-collection"
-          }
-        }
-      },
-      "block_order": [
-        "template--18069642248466__a9731e9a-74f5-4dfa-84fe-b6ef715a779a-1678090160e4b4b56a-0"
-      ],
-      "settings": {
-        "section_title": "FITNESS SHOP",
-        "section_subtitle": "",
-        "container_width": "container",
-        "bg_section": "#ffffff",
-        "inset_section": "0px 0px 0px 0px",
-        "offset_section": "0px 0px 0px 0px",
-        "reset_indent": false,
-        "use_tabs": false,
-        "all_view": false,
-        "products_count": "4",
-        "column_item": "25%",
-        "carousel_view": false,
-        "products_view": "4",
-        "off_carousel_nav": false,
-        "off_carousel_pag": false,
-        "carousel_control_type": "pagination",
-        "design_type": "type_1"
-      }
-    },
     "1630054140e5357498": {
       "type": "index-divider",
       "settings": {
@@ -975,6 +940,41 @@
         "tablet_padding_bottom": 20,
         "tablet_margin_top": 0,
         "tablet_margin_bottom": 0
+      }
+    },
+    "19a6da75-a73d-4421-9c79-2de814a1c774": {
+      "type": "index-featured-products",
+      "blocks": {
+        "template--18069642248466__19a6da75-a73d-4421-9c79-2de814a1c774-16781005972dd9fbd5-0": {
+          "type": "collection_tab",
+          "settings": {
+            "section_title": "",
+            "block_collection_title": "",
+            "block_collection": "vitamins"
+          }
+        }
+      },
+      "block_order": [
+        "template--18069642248466__19a6da75-a73d-4421-9c79-2de814a1c774-16781005972dd9fbd5-0"
+      ],
+      "settings": {
+        "section_title": "Popular products",
+        "section_subtitle": "Top sale in this week",
+        "container_width": "container",
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "reset_indent": false,
+        "use_tabs": false,
+        "all_view": false,
+        "products_count": "8",
+        "column_item": "33%",
+        "carousel_view": false,
+        "products_view": "4",
+        "off_carousel_nav": false,
+        "off_carousel_pag": false,
+        "carousel_control_type": "pagination",
+        "design_type": "type_1"
       }
     }
   },
@@ -996,7 +996,7 @@
     "35a25ba5-5b97-4960-a411-fe642dd653c9",
     "8eca665b-66d2-4c9f-8997-1001cb1ae99f",
     "302004e4-ae6d-4e5e-8f95-1846df141292",
-    "a9731e9a-74f5-4dfa-84fe-b6ef715a779a",
-    "1630054140e5357498"
+    "1630054140e5357498",
+    "19a6da75-a73d-4421-9c79-2de814a1c774"
   ]
 }
