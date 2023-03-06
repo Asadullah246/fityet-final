@@ -18,12 +18,12 @@ main{
 
 }
 #megamenu_level__1 > li > a , #megamenu_level__1 > li > span {
-    font-weight: 800 !important;
+    font-weight: 700 !important;
 
 
 }
 #menu_7f51d47e-c2c3-4c21-873d-0841c1e54f80 > li > a{
-    font-weight: 800 !important;
+    font-weight: 700 !important;
     /* font-family: 'Barlow', sans-serif !important; */
 }
 
@@ -969,10 +969,15 @@ border: none !important;
     margin-bottom: -6px !important;
 }
 .section_slideshow .swiper-pagination{
-    bottom: 13% !important; 
-    z-index: 999 !important; 
+    bottom: 13% !important;
+    z-index: 999 !important;
 }
-
+#shopify-section-template--18069642248466__1641457524d64a966e > div > div > div.tab_content_wrapper > div.tab_navigation.row{
+    justify-content: center !important;
+}
+#shopify-section-template--18069642248466__1641457524d64a966e > div > div > div.tab_content_wrapper > div.tab_navigation.row div {
+    margin-right: 0 !important;
+}
 
 /* footer media  */
 
