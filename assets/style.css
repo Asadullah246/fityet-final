@@ -959,15 +959,20 @@ border: none !important;
 .product_listing__list .product-buttons .add_to_cart_button {
     max-width: 90% !important;
 }
-#shopify-section-template--18069642248466__164145554029689e88 > div > div > div > div.col-md-7 > div > div{
-    width: 35% !important; 
+#shopify-section-template--18069642248466__1641457524d64a966e > div > div > div.tab_content_wrapper > div.tab_navigation.row > div:nth-child(2){
+    display: none !important;
 }
-#shopify-section-template--18069642248466__164145554029689e88 > div > div > div > div.col-md-7 > div > div > div.text-default.item-16414555396cb2c2dd-2 > div > p{
-    white-space: break-spaces !important;
+.section_featured-products-tabs h5.section_heading {
+    text-decoration: none !important;
 }
-#shopify-section-template--18069642248466__164145554029689e88 > div > div{
-    overflow: hidden !important;
+.section .banner-caption.inverted *:not(.btn) {
+    margin-bottom: -6px !important;
 }
+.section_slideshow .swiper-pagination{
+    bottom: 13% !important; 
+    z-index: 999 !important; 
+}
+
 
 /* footer media  */
 
