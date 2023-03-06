@@ -772,6 +772,7 @@
     },
     "8eca665b-66d2-4c9f-8997-1001cb1ae99f": {
       "type": "index-lookbook",
+      "disabled": true,
       "blocks": {
         "template--18069642248466__8eca665b-66d2-4c9f-8997-1001cb1ae99f-1677785923fa3ae78d-0": {
           "type": "lookbook",
@@ -878,7 +879,6 @@
     },
     "302004e4-ae6d-4e5e-8f95-1846df141292": {
       "type": "index-logo-list",
-      "disabled": true,
       "blocks": {
         "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-0": {
           "type": "logo_image",
@@ -925,6 +925,7 @@
     },
     "a9731e9a-74f5-4dfa-84fe-b6ef715a779a": {
       "type": "index-featured-products",
+      "disabled": true,
       "blocks": {
         "template--18069642248466__a9731e9a-74f5-4dfa-84fe-b6ef715a779a-1678090160e4b4b56a-0": {
           "type": "collection_tab",
