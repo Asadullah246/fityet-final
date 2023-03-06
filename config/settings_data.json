@@ -535,7 +535,7 @@
           "footer_logo": true,
           "footer_logo_type": "img",
           "footer_logo_slogan": "<p><strong>ABOUT OUR COMPANY<\/strong><\/p><p><strong>FIT YET STORE<\/strong><\/p><p>Are you looking for best-looking fitness clothing, most comfortable footwear, finest accessories and first-class nutrition and equipment?  Why wait!!! Everything mentioned above and even more, you will find in this online store. <\/p>",
-          "contacts": false,
+          "contacts": true,
           "phone": "",
           "phone_text": "",
           "email": "fityet.store@gmail.com",
