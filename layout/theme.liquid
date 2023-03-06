@@ -1,6 +1,18 @@
 <!doctype html>
 <html lang="{{ shop.locale }}" class="no-js" {% if settings.rtl %}dir="rtl"{% endif %}>
-<head>{% render 'pagefly-head' %}
+<head>
+<!-- Canonical url custom logic injected by StoreSEO - Start -->
+
+    {%- if product.metafields.store_seo.cannonical_url.size > 2 -%}
+      {%- assign canonical_url = product.metafields.store_seo.cannonical_url -%}
+    {%- elsif page.metafields.store_seo.cannonical_url.size > 2 -%}
+      {%- assign canonical_url = page.metafields.store_seo.cannonical_url -%}
+    {%- elsif article.metafields.store_seo.cannonical_url.size > 2 -%}
+      {%- assign canonical_url = article.metafields.store_seo.cannonical_url -%}
+    {%- endif -%}
+    
+<!-- Canonical url custom logic injected by StoreSEO - End -->
+{% render 'pagefly-head' %}
 	 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -103,6 +115,48 @@
 
 
 
+
+<!-- Noindex, nofollow tag inserted by StoreSEO - Start -->
+
+    {%- if product -%}
+      {%- if product.metafields.store_seo.no_index == 1 and product.metafields.store_seo.no_follow == 1 -%}
+      	<meta name="robots" content="noindex, nofollow">
+      {%- elsif product.metafields.store_seo.no_index == 1 -%}
+      <meta name="robots" content="noindex">
+      {%- elsif product.metafields.store_seo.no_follow == 1 -%}
+      <meta name="robots" content="nofollow">
+      {%- endif -%}
+    {%- endif -%}
+    
+<!-- Noindex, nofollow tag inserted by StoreSEO - End -->
+
+<!-- Custom social media preview logic inserted by StoreSEO - Start -->
+
+    {%- if product.metafields.store_seo.facebook_preview_image_url.size > 2 -%}
+    <meta name="og:image" content="{{ product.metafields.store_seo.facebook_preview_image_url | default: page_image }}" />
+    {%- endif -%}
+
+    {%- if product.metafields.store_seo.twitter_preview_image_url.size > 2 -%}
+    <meta name="twitter:image" content="{{ product.metafields.store_seo.twitter_preview_image_url | default: page_image }}" />
+    {%- endif -%}
+
+    {%- if article.metafields.store_seo.facebook_preview_image_url.size > 2 -%}
+    <meta name="og:image" content="{{ article.metafields.store_seo.facebook_preview_image_url | default: page_image }}" />
+    {%- endif -%}
+
+    {%- if article.metafields.store_seo.twitter_preview_image_url.size > 2 -%}
+    <meta name="twitter:image" content="{{ article.metafields.store_seo.twitter_preview_image_url | default: page_image }}" />
+    {%- endif -%}
+
+    {%- if page.metafields.store_seo.facebook_preview_image_url.size > 2 -%}
+    <meta name="og:image" content="{{ page.metafields.store_seo.facebook_preview_image_url | default: page_image }}" />
+    {%- endif -%}
+
+    {%- if page.metafields.store_seo.twitter_preview_image_url.size > 2 -%}
+    <meta name="twitter:image" content="{{ page.metafields.store_seo.twitter_preview_image_url | default: page_image }}" />
+    {%- endif -%}
+    
+<!-- Custom social media preview logic inserted by StoreSEO - End -->
 </head>
 
 <body class="template-{{ request.page_type | handle }} page-{{ template.suffix }} {% if settings.rtl %}rtl{% endif %} {% if settings.use_lg %} use_lg{% endif %}">

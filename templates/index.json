@@ -219,20 +219,20 @@
         "inset_section": "0px 0px 0px 0px",
         "offset_section": "0px 0px 0px 0px",
         "bg_section": "#ffffff",
-        "image": "shopify:\/\/shop_images\/4.png",
+        "image": "shopify:\/\/shop_images\/4_2048x2_41215341-0dff-46aa-b4d2-842b4f93327d.png",
         "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "#ff4a00",
         "image_bg_color_opacity": 0.5,
         "inset_image": "0px 0px 0px 0px",
-        "caption_column": "6",
+        "caption_column": "7",
         "caption_align_v": "center",
         "text_align": "left",
         "inverted": false,
         "use_caption_bg": false,
         "caption_bg_color": "",
         "caption_bg_color_opacity": 0.5,
-        "inset_caption": "0% 0% 0% 5%"
+        "inset_caption": "0% 0% 0% 0%"
       }
     },
     "162789983429f786d4": {
@@ -877,8 +877,44 @@
         "bg_section": "#ff4a00"
       }
     },
+    "c4f492f2-c444-4298-919f-bf7804fe67b7": {
+      "type": "index-featured-products",
+      "blocks": {
+        "11ee17fb-bebe-43f9-99bb-38d67a89fc8e": {
+          "type": "collection_tab",
+          "settings": {
+            "section_title": "",
+            "block_collection_title": "",
+            "block_collection": "vitamins"
+          }
+        }
+      },
+      "block_order": [
+        "11ee17fb-bebe-43f9-99bb-38d67a89fc8e"
+      ],
+      "settings": {
+        "section_title": "Vitamins",
+        "section_subtitle": "",
+        "container_width": "container",
+        "bg_section": "#ffffff",
+        "inset_section": "0px 0px 0px 0px",
+        "offset_section": "0px 0px 0px 0px",
+        "reset_indent": false,
+        "use_tabs": false,
+        "all_view": false,
+        "products_count": "4",
+        "column_item": "25%",
+        "carousel_view": false,
+        "products_view": "4",
+        "off_carousel_nav": true,
+        "off_carousel_pag": true,
+        "carousel_control_type": "pagination",
+        "design_type": "type_1"
+      }
+    },
     "302004e4-ae6d-4e5e-8f95-1846df141292": {
       "type": "index-logo-list",
+      "disabled": true,
       "blocks": {
         "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-0": {
           "type": "logo_image",
@@ -923,42 +959,6 @@
         "carousel_control_type": "pagination"
       }
     },
-    "a9731e9a-74f5-4dfa-84fe-b6ef715a779a": {
-      "type": "index-featured-products",
-      "disabled": true,
-      "blocks": {
-        "template--18069642248466__a9731e9a-74f5-4dfa-84fe-b6ef715a779a-1678090160e4b4b56a-0": {
-          "type": "collection_tab",
-          "settings": {
-            "section_title": "",
-            "block_collection_title": "",
-            "block_collection": "new-collection"
-          }
-        }
-      },
-      "block_order": [
-        "template--18069642248466__a9731e9a-74f5-4dfa-84fe-b6ef715a779a-1678090160e4b4b56a-0"
-      ],
-      "settings": {
-        "section_title": "FITNESS SHOP",
-        "section_subtitle": "",
-        "container_width": "container",
-        "bg_section": "#ffffff",
-        "inset_section": "0px 0px 0px 0px",
-        "offset_section": "0px 0px 0px 0px",
-        "reset_indent": false,
-        "use_tabs": false,
-        "all_view": false,
-        "products_count": "4",
-        "column_item": "25%",
-        "carousel_view": false,
-        "products_view": "4",
-        "off_carousel_nav": false,
-        "off_carousel_pag": false,
-        "carousel_control_type": "pagination",
-        "design_type": "type_1"
-      }
-    },
     "1630054140e5357498": {
       "type": "index-divider",
       "settings": {
@@ -995,8 +995,8 @@
     "94cf2551-cc1a-4dba-b895-e0b66e81c171",
     "35a25ba5-5b97-4960-a411-fe642dd653c9",
     "8eca665b-66d2-4c9f-8997-1001cb1ae99f",
+    "c4f492f2-c444-4298-919f-bf7804fe67b7",
     "302004e4-ae6d-4e5e-8f95-1846df141292",
-    "a9731e9a-74f5-4dfa-84fe-b6ef715a779a",
     "1630054140e5357498"
   ]
 }
