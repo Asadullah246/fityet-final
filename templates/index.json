@@ -225,14 +225,14 @@
         "image_bg_color": "#ff4a00",
         "image_bg_color_opacity": 0.5,
         "inset_image": "0px 0px 0px 0px",
-        "caption_column": "7",
+        "caption_column": "5",
         "caption_align_v": "center",
         "text_align": "left",
         "inverted": false,
         "use_caption_bg": false,
         "caption_bg_color": "",
         "caption_bg_color_opacity": 0.5,
-        "inset_caption": "0% 0% 0% 0%"
+        "inset_caption": "0% 2% 0% 0%"
       }
     },
     "162789983429f786d4": {
