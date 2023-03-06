@@ -959,8 +959,11 @@ border: none !important;
 .product_listing__list .product-buttons .add_to_cart_button {
     max-width: 90% !important;
 }
+#shopify-section-template--18069642248466__164145554029689e88 > div > div > div > div.col-md-7 > div > div{
+    width: 35% !important; 
+}
 #shopify-section-template--18069642248466__164145554029689e88 > div > div > div > div.col-md-7 > div > div > div.text-default.item-16414555396cb2c2dd-2 > div > p{
-    white-space: break-spaces !important; 
+    white-space: break-spaces !important;
 }
 #shopify-section-template--18069642248466__164145554029689e88 > div > div{
     overflow: hidden !important;
