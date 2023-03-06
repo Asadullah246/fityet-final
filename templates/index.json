@@ -220,7 +220,7 @@
         "offset_section": "0px 0px 0px 0px",
         "bg_section": "#ffffff",
         "image": "shopify:\/\/shop_images\/4.png",
-        "image_column": "4",
+        "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "#ff4a00",
         "image_bg_color_opacity": 0.5,
