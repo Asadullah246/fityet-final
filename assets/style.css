@@ -950,10 +950,14 @@ border: none !important;
     text-decoration: none;
 }
 .section_banners .h3.block-title:after {
-    background: white !important; 
+    background: white !important;
 }
 #shopify-section-template--18057764241682__1641455547ad5693ee > div > div > div > div:nth-child(1) > div > div > div > div:after {
     background: black !important;
+}
+
+.product_listing__list .product-buttons .add_to_cart_button {
+    max-width: 90% !important; 
 }
 
 /* footer media  */
