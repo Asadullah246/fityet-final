@@ -536,8 +536,8 @@
           "footer_logo_type": "img",
           "footer_logo_slogan": "<p><strong>ABOUT OUR COMPANY<\/strong><\/p><p><strong>FIT YET STORE<\/strong><\/p><p>Are you looking for best-looking fitness clothing, most comfortable footwear, finest accessories and first-class nutrition and equipment?  Why wait!!! Everything mentioned above and even more, you will find in this online store. <\/p>",
           "contacts": true,
-          "phone": "9205122105",
-          "phone_text": "9205122105",
+          "phone": "",
+          "phone_text": "",
           "email": "fityet.store@gmail.com",
           "email_text": "Send us an email",
           "powered_toggle": true,
@@ -1557,6 +1557,24 @@
     "blocks": {
       "15348748251665635398": {
         "type": "shopify:\/\/apps\/amazon-connectr-fba-sync\/blocks\/app-embed\/90afe1dc-186f-47c7-b24a-5922a8b1aa2a",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "2108175781643875790": {
+        "type": "shopify:\/\/apps\/storeseo\/blocks\/script\/64b24496-16f9-4afc-a800-84e6acc4a36c",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "6097499278999377719": {
+        "type": "shopify:\/\/apps\/globo-mega-menu-navigation\/blocks\/app-embed\/7a00835e-fe40-45a5-a615-2eb4ab697b58",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "7689690182613285879": {
+        "type": "shopify:\/\/apps\/wisereviews-product-reviews\/blocks\/wise-reviews\/9ef986f0-166f-4cdf-8a67-c9585e8df5a9",
         "disabled": false,
         "settings": {
         }
