@@ -220,19 +220,19 @@
         "offset_section": "0px 0px 0px 0px",
         "bg_section": "#ffffff",
         "image": "shopify:\/\/shop_images\/4_2048x2_41215341-0dff-46aa-b4d2-842b4f93327d.png",
-        "image_column": "7",
+        "image_column": "6",
         "use_bgimg": false,
         "image_bg_color": "#ff4a00",
         "image_bg_color_opacity": 0.5,
         "inset_image": "0px 0px 0px 0px",
-        "caption_column": "6",
-        "caption_align_v": "start",
+        "caption_column": "7",
+        "caption_align_v": "center",
         "text_align": "left",
         "inverted": false,
         "use_caption_bg": false,
         "caption_bg_color": "",
         "caption_bg_color_opacity": 0.5,
-        "inset_caption": "0% 0% 0% 5%"
+        "inset_caption": "0% 0% 0% 0%"
       }
     },
     "162789983429f786d4": {
