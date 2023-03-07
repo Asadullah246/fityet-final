@@ -410,6 +410,7 @@
     },
     "16278999588811e107": {
       "type": "index-divider",
+      "disabled": true,
       "settings": {
         "section_view": "container",
         "type_value": "vw",
@@ -428,6 +429,7 @@
     },
     "162789999412c565b2": {
       "type": "index-divider",
+      "disabled": true,
       "settings": {
         "section_view": "container",
         "type_value": "vw",
