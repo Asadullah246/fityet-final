@@ -116,7 +116,7 @@
   		</div>
   	{% endunless  %}
   {% endif %}
-  <div class="{% if sidebar_collection_enable %} sidebar_on col-12 col-md-12{% else %} container {% endif %}{% if sidebar_collection_enable and item.sidebar_collection_position == 'sidebar_left' %} left-sidebar{% elsif sidebar_collection_enable and item.sidebar_collection_position == 'sidebar_right' %} right-sidebar{% endif %}">
+  <div class="{% if sidebar_collection_enable %} sidebar_on col-12 col-md-12 col-lg-9 {% else %} container {% endif %}{% if sidebar_collection_enable and item.sidebar_collection_position == 'sidebar_left' %} left-sidebar{% elsif sidebar_collection_enable and item.sidebar_collection_position == 'sidebar_right' %} right-sidebar{% endif %}">
 
 	  {% if collection_banner %}
 		  <div class="collection_banner">
