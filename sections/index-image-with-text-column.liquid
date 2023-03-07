@@ -49,11 +49,11 @@
 
 
 
-<div class="section-style-{{ section.id }}">
+<div class="section-style-{{ section.id }}"> 
 	{%- include 'section-style' -%}
 
 	<div class="{{ section.settings.container_width }}">
-		<div class="row flex-{{ section.settings.column_dir }} flex-md-nowrap justify-content-between {% if section.settings.reset_indent %}gx-0{% endif %}">
+		<div class="row flex-{{ section.settings.column_dir }}  justify-content-between {% if section.settings.reset_indent %}gx-0{% endif %}">
 			<div class="col-md-{{ section.settings.image_column }}">
 				<div class="image-section-wrap">
 					{% if section.settings.image != blank %}
@@ -473,7 +473,7 @@
 				{
 					"type": "checkbox",
 					"id": "use_bgi",
-					"label": "Use background caption item", 
+					"label": "Use background caption item",
 
 					"default": false
 				},
