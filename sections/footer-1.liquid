@@ -114,7 +114,7 @@
 									{{ linklists[linklist].title }}
 									<svg class="d-md-none" width="9" height="6" viewBox="0 0 9 6" xmlns="http://www.w3.org/2000/svg"><path d="M9 1.5L7.5 0L4.5 3L1.5 0L0 1.5L4.5 6L9 1.5Z" /></svg>
 								</h6>
-								<ul class="link_list content-toggle-mobile">
+								<ul class="link_list "> 
 									{% for link in linklists[linklist].links %}
 										<li>
 											<a id="footerLink" {% if link.active %}class="active"{% endif %} href="{{ link.url }}">{{ link.title }}</a>
@@ -163,7 +163,7 @@
 						<div class="col-12 col-md-auto mt-md-0">
 							<div class="copyrightText footer_copyright">
 								{% assign copyright_year = "now" | date: "%Y" %}
-								<div class="mt-1">© {{ shop.name }}</div> 
+								<div class="mt-1">© {{ shop.name }}</div>
 							</div>
 						</div>
 					{% endif %}
