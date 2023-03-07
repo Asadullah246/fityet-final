@@ -19,9 +19,9 @@
 					{%- endif -%}
 				{% endif %}
 			</div>
-			<div class="col-md col-xl-3 d-flex justify-content-end align-items-center position-static header_items_wrapper">
+			<div class="col-md col-xl-2 d-flex justify-content-end align-items-center position-static header_items_wrapper">
 
-				
+ 
 				{% if ss_item.header_search %}
 					<div class="item_left_spacer {% if ajax_search == false %}order-xl-first mr-xl-2{% endif %}" data-responsive-id="header-search" data-responsive-layout="desktop">
 						{% if ajax_search %}
@@ -37,20 +37,20 @@
 						{% include 'header-account' %}
 					</div>
 				{% endif %}
-				
+
 				{% if ss_item.enable_header_wishlist %}
 					<div class="item_left_spacer" data-responsive-id="wishlist" data-responsive-layout="desktop">
 						{% include "header-wishlist" %}
 					</div>
 				{% endif %}
-				
+
 				{% if ss_item.header_cart %}
 					<div class="item_left_spacer" data-responsive-id="shopping-cart" data-responsive-layout="desktop">
 						{%- assign ajax_cart = ss_item.ajax_cart -%}
 						{% include 'header-cart' ajax: ajax_cart, style: 'type_2' %}
 					</div>
 				{% endif %}
-				
+
 				{% unless topbar and ss_item.header_tb_cs %}
 					{%- if ss_item.use_currency_selector  -%}
 						<div class="item_left_spacer" data-responsive-id="currency-selector" data-responsive-layout="desktop">
@@ -58,7 +58,7 @@
 						</div>
 					{%- endif -%}
 				{% endunless %}
-				
+
 			</div>
 		</div>
 	</div>
