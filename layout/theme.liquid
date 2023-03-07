@@ -10,7 +10,7 @@
     {%- elsif article.metafields.store_seo.cannonical_url.size > 2 -%}
       {%- assign canonical_url = article.metafields.store_seo.cannonical_url -%}
     {%- endif -%}
-
+    
 <!-- Canonical url custom logic injected by StoreSEO - End -->
 {% render 'pagefly-head' %}
 	 <meta charset="utf-8">
@@ -127,7 +127,7 @@
       <meta name="robots" content="nofollow">
       {%- endif -%}
     {%- endif -%}
-
+    
 <!-- Noindex, nofollow tag inserted by StoreSEO - End -->
 
 <!-- Custom social media preview logic inserted by StoreSEO - Start -->
@@ -155,7 +155,7 @@
     {%- if page.metafields.store_seo.twitter_preview_image_url.size > 2 -%}
     <meta name="twitter:image" content="{{ page.metafields.store_seo.twitter_preview_image_url | default: page_image }}" />
     {%- endif -%}
-
+    
 <!-- Custom social media preview logic inserted by StoreSEO - End -->
 </head>
 
