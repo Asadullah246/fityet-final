@@ -1003,10 +1003,10 @@ padding: 11px 10px !important;
 }
 
 #page_header > div.header-mobile.d-xl-none.pt-2.pb-1.py-md-3.py-xl-0 > div > div > div.col-auto.col-sm-auto.d-flex.align-items-center.justofy-content-end.header_items_wrapper > div:nth-child(2) > div > div.cart_content_wrap.open{
-    height: 60vh !important;
+    height: 70vh !important;
 }
 #cartSection {
-    height: 60vh !important;
+    height: 80% !important;
 
 }
 
@@ -1073,6 +1073,25 @@ margin-bottom: 20px !important;
     margin: 0 auto !important;
 }
 
+#back_top{
+    background: #F63C25 !important;
+    position: fixed;
+    z-index: 999;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #000000;
+    box-shadow: 0 2px 12px #0003;
+    transition: all .3s ease-in-out;
+    opacity: 1;
+    bottom: 95px !important;
+
+}
+#back_top svg {
+    fill: white !important;
+}
+
 
 /* footer media  */
 
@@ -1087,6 +1106,10 @@ margin-bottom: 20px !important;
 @media (max-width: 991px){
     .container, .template-page .breadcrumbs>div, #size-chart, ul.megamenu>li.level_1__item .is-megamenu>li, .section_template__product #shopify-product-reviews .spr-container, .shipping-delivery-page, .page_container .shopify-policy__container, .container-xsm, .container-sm, .container-md, .container-lg, .container-xl{
         width: 90% ;
+
+    }
+    #back_top{
+        bottom: 95px !important;
 
     }
 
@@ -1151,15 +1174,13 @@ margin-bottom: 20px !important;
     }
     #page_header > div.header-mobile.d-xl-none.pt-2.pb-1.py-md-3.py-xl-0 > div > div > div.col-auto.col-sm-auto.d-flex.align-items-center.justofy-content-end.header_items_wrapper > div:nth-child(2) > div > div.cart_content_wrap.open{
         height: 100vh !important;
+        padding-bottom: 10px !important;
     }
 
     #cartSection {
-        height: 100vh !important;
+        height: 80% !important; 
     }
-    #page_header > div.header-mobile.d-xl-none.pt-2.pb-1.py-md-3.py-xl-0 > div > div > div.col-auto.col-sm-auto.d-flex.align-items-center.justofy-content-end.header_items_wrapper > div:nth-child(2) > div > div.cart_content_wrap.open{
-        height: 100vh !important;
-        padding-bottom: 10px !important;
-    }
+
 
     #shopify-section-template--18057764208914__template-collection > div > div.sidebar_small.col-12.col-md-3{
         display: none !important;
