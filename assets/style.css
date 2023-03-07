@@ -1179,11 +1179,26 @@ margin-bottom: 20px !important;
     #megamenu_level__1 > li > a > span {
         font-size: 22px !important;
     }
-    #page_header > div.header-mobile.d-xl-none.pt-2.pb-1.py-md-3.py-xl-0 > div > div > div.col.col-sm.d-flex.align-items-center.pr-0 > div.menu-content.on > div.menu-items.header_items_wrapper > div > span {
+    #page_header > div.header-mobile.d-xl-none.pt-2.pb-1.py-md-3.py-xl-0 > div > div > div.col.col-sm.d-flex.align-items-center.pr-0 > div.menu-content.on > div.menu-items.header_items_wrapper > div > span, #megamenu_level__1 > li:nth-child(3) > span > span.link_text , #megamenu_level__1 > li:nth-child(4) > span > span.link_text {
         font-size: 22px !important;
-        font-weight: 600 !important;
-        margin-bottom: 10px !important;
+        font-weight: 700 !important;
 
+
+    }
+    #page_header > div.header-mobile.d-xl-none.pt-2.pb-1.py-md-3.py-xl-0 > div > div > div.col.col-sm.d-flex.align-items-center.pr-0 > div.menu-content.on > div.menu-items.header_items_wrapper > div{
+        margin-bottom: 15px !important;
+    }
+    .productHeadingSection{
+        margin-bottom: 5px !important;
+    }
+    #shopify-section-template--18127834775826__00fe86a2-0a94-4599-bed6-1cc5a65f5ab3 > div > div > div > div{
+        margin-bottom: 0 !important;
+    }
+    #shopify-section-template--18127834775826__00fe86a2-0a94-4599-bed6-1cc5a65f5ab3 > div > div > div > div > div > h2 {
+        margin-top: 15px !important;
+    }
+    #shopify-section-template--18127834874130__16280864582c16a35d > div {
+        display: none !important;
     }
 
 
@@ -1364,11 +1379,11 @@ margin-bottom: 20px !important;
         font-size: 20px !important;
     }
 
-    #page_header > div.header-mobile.d-xl-none.pt-2.pb-1.py-md-3.py-xl-0 > div > div > div.col.col-sm.d-flex.align-items-center.pr-0 > div.menu-content.on > div.menu-items.header_items_wrapper > div > span {
+    #page_header > div.header-mobile.d-xl-none.pt-2.pb-1.py-md-3.py-xl-0 > div > div > div.col.col-sm.d-flex.align-items-center.pr-0 > div.menu-content.on > div.menu-items.header_items_wrapper > div > span, #megamenu_level__1 > li:nth-child(3) > span > span.link_text , #megamenu_level__1 > li:nth-child(4) > span > span.link_text {
         font-size: 20px !important;
-        font-weight: 600 !important;
-        margin-bottom: 10px !important; 
+        font-weight: 700 !important;
 
     }
+
 
 }
