@@ -1003,7 +1003,7 @@ padding: 11px 10px !important;
 }
 
 #page_header > div.header-mobile.d-xl-none.pt-2.pb-1.py-md-3.py-xl-0 > div > div > div.col-auto.col-sm-auto.d-flex.align-items-center.justofy-content-end.header_items_wrapper > div:nth-child(2) > div > div.cart_content_wrap.open{
-    height: 70vh !important;
+    height: 65vh !important;
 }
 #cartSection {
     height: 80% !important;
@@ -1178,7 +1178,7 @@ margin-bottom: 20px !important;
     }
 
     #cartSection {
-        height: 80% !important; 
+        height: 80% !important;
     }
 
 
