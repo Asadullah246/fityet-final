@@ -1310,6 +1310,11 @@ margin-bottom: 20px !important;
         width: 70px !important;
     }
 
+ #shopify-section-template--18127834677522__16414608074ede0d57 > div > div > div > div:nth-child(1) > div > div,
+    #shopify-section-template--18127834677522__16414608074ede0d57 > div > div > div > div:nth-child(2) > div > div {
+        padding: 3% 0 6% 0 !important;
+    } 
+
     .section_image-with-text-column .h1 p {
         font-weight: 300;
         line-height: 45px;
