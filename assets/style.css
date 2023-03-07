@@ -1047,6 +1047,9 @@ margin-bottom: 20px !important;
 #shopify-section-template--18127834677522__1641457524d64a966e > div > div > div.tab_content_wrapper > div.tab_navigation.row > div:nth-child(2){
     display: none !important;
 }
+#shopify-section-template--18127834677522__1641457524d64a966e > div > div > div.tab_content_wrapper > div.tab_navigation.row > div:nth-child(1){
+    margin: 0 auto !important; 
+}
 
 
 /* footer media  */
