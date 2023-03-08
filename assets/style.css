@@ -730,6 +730,7 @@ border: none;
 .footer_type_1 .footer_item__newsletter .type-line .form-wrapper .btn:hover {
 background: rgba(255, 255, 255, 0.774);
 color: #0E639C;
+
 }
 
 #footerDown > div > div.col-12.col-md-6.col-lg-4.without_toggle > div > ul > li:nth-child(1){
@@ -935,7 +936,7 @@ footer .contact_list  {
 }
 
 .footer_type_1 .newsletter__input:focus{
-border: none !important;
+border: none ;
 }
 
 .card__media-full-spacer{
@@ -1095,6 +1096,7 @@ margin-bottom: 20px !important;
 }
 
 
+
 /* footer media  */
 
 @media (min-width: 1200px){
@@ -1181,7 +1183,7 @@ margin-bottom: 20px !important;
 
     #cartSection {
         height: 80% !important;
-        width: 100% !important; 
+        width: 100% !important;
     }
 
 
@@ -1329,10 +1331,17 @@ margin-bottom: 20px !important;
     .footer_item__newsletter .form-wrapper{
         border: none;
     }
-    .footer_type_1 .newsletter__input {
-        border: 1px solid white;
-        border-radius: 50px;
+    .footer_type_1 .newsletter__input ,#newsletter_form > div > div > input{
+        border: 1px solid white !important;
+        border-radius: 50px; 
         }
+        .footer_type_1 .newsletter__input:focus , #newsletter_form > div > div > input:focus {
+            border: 1px solid white !important;
+            }
+        .footer_type_1 .newsletter__input:active , #newsletter_form > div > div > input:active{
+            border: 1px solid white !important;
+            }
+
 
         #shopify-section-template--18057764012306__template-cart > div > div > h1{
             margin-bottom: 0px !important;
