@@ -1466,7 +1466,7 @@
             "type": "link-linklist",
             "settings": {
               "title": "New Arrival",
-              "link": "shopify:\/\/collections\/yoga",
+              "link": "",
               "links": "3-types",
               "badge_text": "",
               "badge_color": "#121212",
