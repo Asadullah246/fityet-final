@@ -1485,15 +1485,14 @@
               "custom_item_class": ""
             }
           },
-          "c680b9f5-1c6a-4e88-8a4b-7e74c4a3baac": {
-            "type": "link-linklist",
+          "69133f85-fc12-4b8e-8903-04749a7c192a": {
+            "type": "link-simple",
             "settings": {
-              "title": "Othes",
-              "link": "",
-              "links": "others",
+              "title": "Contact Us",
+              "link": "shopify:\/\/pages\/contact-us",
               "badge_text": "",
               "badge_color": "#121212",
-              "bg_color": "#394cb3",
+              "bg_color": "#1C54E2",
               "custom_item_class": ""
             }
           }
@@ -1503,7 +1502,7 @@
           "d34ca0c3-327a-4196-acb7-8bdd25517eaf",
           "c2e00110-b725-45cf-892f-60558b7c9fed",
           "c3596f34-d4fa-4942-9008-73ddb54139c9",
-          "c680b9f5-1c6a-4e88-8a4b-7e74c4a3baac"
+          "69133f85-fc12-4b8e-8903-04749a7c192a"
         ],
         "settings": {
           "headermaxwidth": 1140,
