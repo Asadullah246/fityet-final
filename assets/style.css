@@ -1271,10 +1271,10 @@ margin-bottom: 20px !important;
 
     #pagination_template--18057764241682__162766312376154f68,
     #pagination_template--18127834677522__162766312376154f68{
-        bottom: 17% !important;
+        bottom: 12% !important;
 
     }
-    .section_slideshow .swiper-pagination {
+    .section_slideshow .swiper-pagination { 
         bottom: 6%!important;
     }
 
@@ -1395,7 +1395,7 @@ margin-bottom: 20px !important;
 
         #pagination_template--18057764241682__162766312376154f68,
     #pagination_template--18127834677522__162766312376154f68{
-        bottom: 3% !important;  
+        bottom: 3% !important;
 
     }
 
