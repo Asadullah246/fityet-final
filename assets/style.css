@@ -1522,7 +1522,7 @@ margin-bottom: 20px !important;
         height: 50vw !important;
         overflow: hidden;
     }
-    #slideshow_template--18127834677522__162766312376154f68 > div.swiper-wrapper > div.swiper-slide.image_slide.item-162766312376154f68-0.swiper-slide-active{
+    #slideshow_template--18127834677522__162766312376154f68 > div.swiper-wrapper > div{
         height: 100%;
         width: 100%;
     }
@@ -1536,9 +1536,9 @@ margin-bottom: 20px !important;
 
     #slideshow_template--18127834677522__162766312376154f68 .caption_text {
         padding: 0!important;
-        width: 60% !important; 
+        width: 60% !important;
     }
-    #slideshow_template--18127834677522__162766312376154f68 > div.swiper-wrapper > div.swiper-slide.image_slide.item-162766312376154f68-0.swiper-slide-active > div.row > div > div > div.text-large.block-text > div{
+    #slideshow_template--18127834677522__162766312376154f68 > div.swiper-wrapper > div > div.row > div > div > div.text-large.block-text > div{
         font-size: 0.8rem;
     }
 
@@ -1563,16 +1563,14 @@ margin-bottom: 20px !important;
         margin-top: 10px;
     }
     /* btn  */
-    #slideshow_template--18057764241682__162766312376154f68 > div.swiper-wrapper > div.swiper-slide.image_slide.item-162766312376154f68-0.swiper-slide-active > div.row > div > div > div.btnGroup.justify-content-start > a ,
+    #slideshow_template--18057764241682__162766312376154f68 > div.swiper-wrapper > div > div.row > div > div > div.btnGroup.justify-content-start > a ,
     #slideshow_template--18127834677522__162766312376154f68 > div.swiper-wrapper > div > div.row > div > div > div > a {
         width: fit-content !important;
         padding: 7px 30px;
         border-radius: 25px !important;
         font-size: 0.8rem !important;
     }
-    #slideshow_template--18057764241682__162766312376154f68 > div.swiper-wrapper > div > div.row > div > div {
-
-    }
+  
     #slideshow_template--18127834677522__162766312376154f68 > div.swiper-wrapper > div > div.row > div > div > div.btnGroup.justify-content-start{
         margin-top: 15px !important;
     }
