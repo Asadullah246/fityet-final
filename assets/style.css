@@ -1256,7 +1256,7 @@ margin-bottom: 20px !important;
         margin-left: 0 !important;
         padding-left:6% !important;
     }
-    #slideshow_template--18127834677522__162766312376154f68 .caption_text{ 
+    #slideshow_template--18127834677522__162766312376154f68 .caption_text{
         padding: 0 !important;
     }
 
@@ -1478,8 +1478,12 @@ margin-bottom: 20px !important;
         padding-bottom: 25px !important;
     }
 
-    #slideshow_template--18057764241682__162766312376154f68 .img_bg__wrap {
+    #slideshow_template--18057764241682__162766312376154f68 .img_bg__wrap,
+    #slideshow_template--18127834677522__162766312376154f68 .img_bg__wrap {
         padding: 178px 0;
+    }
+    #shopify-section-template--18127834677522__164145554029689e88 > div > div{
+        margin-top: 70px !important; 
     }
 
 }
