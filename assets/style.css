@@ -1587,11 +1587,10 @@ margin-bottom: 20px !important;
     }
 
     .swiper-button-prev {
-        left: -2 !important;
+        left: -2px !important;
     }
     .swiper-button-next{
-        right: -2 !important;
+        right: -2px !important;
     }
 
-}
- 
+} 
