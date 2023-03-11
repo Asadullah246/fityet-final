@@ -1480,10 +1480,10 @@ margin-bottom: 20px !important;
 
     #slideshow_template--18057764241682__162766312376154f68 .img_bg__wrap,
     #slideshow_template--18127834677522__162766312376154f68 .img_bg__wrap {
-        padding: 178px 0;
+        padding: 178px 0 !important;
     }
     #shopify-section-template--18127834677522__164145554029689e88 > div > div{
-        margin-top: 70px !important; 
+        margin-top: 70px !important;
     }
 
 }
