@@ -139,7 +139,7 @@
         "container_width": "full-width",
         "slideshow_img_type": "bg",
         "padding_desktop": 350,
-        "padding_mobile": 150,
+        "padding_mobile": 250,
         "slideshow_height": "medium",
         "autoplay": false,
         "autoplay_delay": "10000",
