@@ -1107,11 +1107,14 @@ margin-bottom: 20px !important;
     background-size: 100% 100% !important;
 }
 #footerDown > div > div:nth-child(3){
-    display: none; 
+    /* display: none;  */
 }
 
 #footerDown > div > div:nth-child(3) > div > #linkHeader {
     display: none ;
+}
+#newsletter_form, #newsletter_form > div{
+height: fit-content !important; 
 }
 
 /* footer media  */
