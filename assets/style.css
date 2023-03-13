@@ -1114,7 +1114,11 @@ margin-bottom: 20px !important;
     display: none ;
 }
 #newsletter_form, #newsletter_form > div{
-height: fit-content !important; 
+height: fit-content !important;
+}
+
+#footerDown > div > div:nth-child(3){
+    display: none !important;  
 }
 
 /* footer media  */
