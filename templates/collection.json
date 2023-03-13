@@ -68,6 +68,39 @@
             "caption_bg_color_opacity": 0,
             "custom_collection_class": ""
           }
+        },
+        "b67e0517-0c2a-4afe-b43f-ba454df6df91": {
+          "type": "featured_collection",
+          "settings": {
+            "item_collection": "supplement-vitamin",
+            "column_item": "4",
+            "position-caption": "bottom",
+            "caption_bg_color": "#ffffff",
+            "caption_bg_color_opacity": 0,
+            "custom_collection_class": ""
+          }
+        },
+        "aae254bf-ca39-4db2-bc94-44a302fd7657": {
+          "type": "featured_collection",
+          "settings": {
+            "item_collection": "new-arrivals",
+            "column_item": "4",
+            "position-caption": "bottom",
+            "caption_bg_color": "#ffffff",
+            "caption_bg_color_opacity": 0,
+            "custom_collection_class": ""
+          }
+        },
+        "090a1b75-ebc6-4713-b747-4268e84aa212": {
+          "type": "featured_collection",
+          "settings": {
+            "item_collection": "new-collection",
+            "column_item": "4",
+            "position-caption": "bottom",
+            "caption_bg_color": "#ffffff",
+            "caption_bg_color_opacity": 0,
+            "custom_collection_class": ""
+          }
         }
       },
       "block_order": [
@@ -76,7 +109,10 @@
         "8ab6e7b7-ca14-4ed0-b5b5-028658b8f581",
         "5b38bfc5-f716-47ed-b6be-66e72268afdc",
         "e64d6e67-e23e-4278-8f97-03ed9a9747f3",
-        "0bc49fda-01e4-42d7-ba99-a814ea851e59"
+        "0bc49fda-01e4-42d7-ba99-a814ea851e59",
+        "b67e0517-0c2a-4afe-b43f-ba454df6df91",
+        "aae254bf-ca39-4db2-bc94-44a302fd7657",
+        "090a1b75-ebc6-4713-b747-4268e84aa212"
       ],
       "custom_css": [
 
