@@ -1127,7 +1127,7 @@ height: fit-content !important;
 
 #slideshow_template--18127834677522__162766312376154f68{
     overflow: hidden !important;
-} 
+}
 
 /* footer media  */
 
@@ -1306,6 +1306,10 @@ height: fit-content !important;
 
     #slideshow_template--18127834677522__162766312376154f68{
         overflow: hidden !important;
+    }
+
+    .block-logo .logo-image .header_logo img {
+        max-width: 100% !important;
     }
 
 }
