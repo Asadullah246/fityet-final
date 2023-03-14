@@ -1504,6 +1504,9 @@
           "c3596f34-d4fa-4942-9008-73ddb54139c9",
           "69133f85-fc12-4b8e-8903-04749a7c192a"
         ],
+        "custom_css": [
+
+        ],
         "settings": {
           "headermaxwidth": 1140,
           "htheight": 70,
@@ -1518,7 +1521,7 @@
           "logo_type": "img",
           "logo_width": 100,
           "logo_height": 80,
-          "logo_main": "shopify:\/\/shop_images\/330792021_749191486800894_6686510814886457643_n_100x80_crop_center2-removebg-preview.png",
+          "logo_main": "shopify:\/\/shop_images\/logo4.jpg",
           "use_logo_inverted": false,
           "logo_txt": "",
           "logo_slogan": "",
