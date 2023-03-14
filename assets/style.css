@@ -1131,10 +1131,10 @@ height: fit-content !important;
     margin-bottom: 0 !important;
 }
 
-#page_header > div.header-layout-1.header_layout_common > div:nth-child(3) > div {
+#page_header > div.header-layout-1.header_layout_common > div > div {
     padding-top: 7.5px;
     padding-bottom: 7.5px;
-} 
+}
 
 
 
