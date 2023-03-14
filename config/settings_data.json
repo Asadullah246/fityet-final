@@ -1543,7 +1543,7 @@
           "header_hidetopbar": true,
           "bg_topbar": "#ffffff",
           "inverted_topbar": false,
-          "htbheight": 51,
+          "htbheight": 40,
           "header_tb_cs": false,
           "header_bottombar": false,
           "bottom_panel_text": "#1 link text",
