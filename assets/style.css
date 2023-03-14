@@ -1118,7 +1118,11 @@ height: fit-content !important;
 }
 
 #footerDown > div > div:nth-child(3){
-    display: none !important;  
+    display: none !important;
+}
+
+#page_header > div.header-layout-1.header_layout_common > div.header-sticky.d-none.d-xl-block.stickUpHeader.megamenu_stuck > div > div > div.col-xl-auto.d-xl-flex.justify-content-start > div > div > div > a > img{
+    height: 70px !important;  
 }
 
 /* footer media  */
