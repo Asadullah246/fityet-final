@@ -1321,6 +1321,11 @@ height: fit-content !important;
         max-width: 100% !important;
     }
 
+    #page_header > div.header-mobile{
+        padding-top: 7.5px !important;
+        padding-bottom: 7.5px !important; 
+    }
+
 }
 
 @media (max-width: 767.98px){
@@ -1442,6 +1447,10 @@ height: fit-content !important;
 
     #slideshow_template--18127834677522__162766312376154f68{
         overflow: hidden !important;
+    }
+    #page_header > div.header-mobile {
+        padding-top: 7.5px !important;
+        padding-bottom: 7.5px !important;
     }
 
 
@@ -1650,6 +1659,11 @@ height: fit-content !important;
     #slideshow_template--18127834677522__162766312376154f68,
     #slideshow_template--18127834677522__162766312376154f68{
         overflow: hidden !important;
+    }
+
+    #page_header > div.header-mobile {
+        padding-top: 7.5px !important;
+        padding-bottom: 7.5px !important;
     }
 
 
