@@ -1504,6 +1504,9 @@
           "c3596f34-d4fa-4942-9008-73ddb54139c9",
           "69133f85-fc12-4b8e-8903-04749a7c192a"
         ],
+        "custom_css": [
+
+        ],
         "settings": {
           "headermaxwidth": 1140,
           "htheight": 70,
@@ -1518,7 +1521,7 @@
           "logo_type": "img",
           "logo_width": 100,
           "logo_height": 80,
-          "logo_main": "shopify:\/\/shop_images\/1-02-1.jpg",
+          "logo_main": "shopify:\/\/shop_images\/newlogo.jpg",
           "use_logo_inverted": false,
           "logo_txt": "",
           "logo_slogan": "",
