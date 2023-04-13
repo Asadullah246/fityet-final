@@ -879,41 +879,6 @@
         "bg_section": "#ff4a00"
       }
     },
-    "c4f492f2-c444-4298-919f-bf7804fe67b7": {
-      "type": "index-featured-products",
-      "blocks": {
-        "11ee17fb-bebe-43f9-99bb-38d67a89fc8e": {
-          "type": "collection_tab",
-          "settings": {
-            "section_title": "",
-            "block_collection_title": "",
-            "block_collection": "supplement-vitamin"
-          }
-        }
-      },
-      "block_order": [
-        "11ee17fb-bebe-43f9-99bb-38d67a89fc8e"
-      ],
-      "settings": {
-        "section_title": "SUPPLEMENTS AND VITAMINS",
-        "section_subtitle": "",
-        "container_width": "container",
-        "bg_section": "#ffffff",
-        "inset_section": "0px 0px 0px 0px",
-        "offset_section": "0px 0px 0px 0px",
-        "reset_indent": false,
-        "use_tabs": false,
-        "all_view": false,
-        "products_count": "4",
-        "column_item": "25%",
-        "carousel_view": false,
-        "products_view": "4",
-        "off_carousel_nav": true,
-        "off_carousel_pag": true,
-        "carousel_control_type": "pagination",
-        "design_type": "type_1"
-      }
-    },
     "302004e4-ae6d-4e5e-8f95-1846df141292": {
       "type": "index-logo-list",
       "disabled": true,
@@ -997,7 +962,6 @@
     "94cf2551-cc1a-4dba-b895-e0b66e81c171",
     "35a25ba5-5b97-4960-a411-fe642dd653c9",
     "8eca665b-66d2-4c9f-8997-1001cb1ae99f",
-    "c4f492f2-c444-4298-919f-bf7804fe67b7",
     "302004e4-ae6d-4e5e-8f95-1846df141292",
     "1630054140e5357498"
   ]
