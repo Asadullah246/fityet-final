@@ -15,7 +15,11 @@
 
 
       <h2 itemprop="name" class="single_product__title mt-3 mb-0 h4">{{ product.title }}</h2>
-
+<!-- Start of Judge.me code --> 
+      <div style='{{ jm_style }}' class='jdgm-widget jdgm-preview-badge' data-id='{{ product.id }}' data-auto-install='false'>
+        {{ product.metafields.judgeme.badge }}
+      </div>  
+      <!-- End of Judge.me code -->
       <div id="single_product__price-{{ section.id }}" class="single_product__price">
         <span class="product-price money">{{ product.price | money }}</span>
       </div>
