@@ -1513,7 +1513,7 @@
           "headermaxwidth": 1140,
           "htheight": 70,
           "header_sticky": true,
-          "header_type": "1",
+          "header_type": "2",
           "header_absolute": false,
           "bg_headermain": "#ffffff",
           "inverted_headermain": false,
