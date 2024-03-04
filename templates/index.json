@@ -25,7 +25,7 @@
             "item_title_1": "<p><strong>EXCITING <\/strong><\/p><p><strong>DEALS<\/strong><\/p>",
             "title_animation": "none",
             "color_title": "#ffffff",
-            "item_subtitle_1": "<p>NEW COLLECTION 2023<\/p>",
+            "item_subtitle_1": "<p>NEW COLLECTION 2024<\/p>",
             "subtitle_animation": "none",
             "color_subtitle": "#ffffff",
             "item_text_1": "<p>We belong to those runners and fitness enthusiasts who <\/p><p>believe that sport unites people.<\/p><p>10% off orders over $150.00 on select apparel with code FIT YET!<\/p>",
@@ -679,7 +679,6 @@
     },
     "35a25ba5-5b97-4960-a411-fe642dd653c9": {
       "type": "index-image-with-text-overlay",
-      "disabled": true,
       "blocks": {
         "template--18069642248466__35a25ba5-5b97-4960-a411-fe642dd653c9-167778158624373037-0": {
           "type": "heading_h6",
@@ -743,6 +742,7 @@
         "template--18069642248466__35a25ba5-5b97-4960-a411-fe642dd653c9-167778158624373037-2",
         "template--18069642248466__35a25ba5-5b97-4960-a411-fe642dd653c9-167778158624373037-3"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -774,7 +774,6 @@
     },
     "8eca665b-66d2-4c9f-8997-1001cb1ae99f": {
       "type": "index-lookbook",
-      "disabled": true,
       "blocks": {
         "template--18069642248466__8eca665b-66d2-4c9f-8997-1001cb1ae99f-1677785923fa3ae78d-0": {
           "type": "lookbook",
@@ -869,6 +868,7 @@
         "template--18069642248466__8eca665b-66d2-4c9f-8997-1001cb1ae99f-1677785923fa3ae78d-1",
         "c948d7fd-94ce-4369-805b-81ec43d34850"
       ],
+      "disabled": true,
       "settings": {
         "container_width": "container",
         "reset_indent": false,
@@ -881,7 +881,6 @@
     },
     "302004e4-ae6d-4e5e-8f95-1846df141292": {
       "type": "index-logo-list",
-      "disabled": true,
       "blocks": {
         "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-0": {
           "type": "logo_image",
@@ -910,6 +909,7 @@
         "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-4",
         "template--18069642248466__302004e4-ae6d-4e5e-8f95-1846df141292-167778496556de1b6b-5"
       ],
+      "disabled": true,
       "settings": {
         "container_width": "container",
         "reset_indent": false,
